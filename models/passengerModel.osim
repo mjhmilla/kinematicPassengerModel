@@ -1,0 +1,1656 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSimDocument Version="40600">
+	<Model name="Lumbar_C_210">
+		<!--The model's ground reference frame.-->
+		<Ground name="ground">
+			<!--The geometry used to display the axes of this Frame.-->
+			<FrameGeometry name="frame_geometry">
+				<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+				<socket_frame>..</socket_frame>
+				<!--Scale factors in X, Y, Z directions respectively.-->
+				<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
+			</FrameGeometry>
+			<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
+			<attached_geometry />
+		</Ground>
+		<!--Acceleration due to gravity, expressed in ground.-->
+		<gravity>0 -9.8066499999999994 0</gravity>
+		<!--Credits (e.g., model author names) associated with the model.-->
+		<credits>Unassigned</credits>
+		<!--Publications and references associated with the model.-->
+		<publications>Unassigned</publications>
+		<!--Units for all lengths.-->
+		<length_units>meters</length_units>
+		<!--Units for all forces.-->
+		<force_units>N</force_units>
+		<!--List of bodies that make up this model.-->
+		<BodySet name="bodyset">
+			<objects>
+				<Body name="pelvis">
+					<!--The geometry used to display the axes of this Frame.-->
+					<FrameGeometry name="frame_geometry">
+						<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+						<socket_frame>..</socket_frame>
+						<!--Scale factors in X, Y, Z directions respectively.-->
+						<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
+					</FrameGeometry>
+					<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
+					<attached_geometry>
+						<Mesh name="pelvis_geom_1">
+							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+							<socket_frame>..</socket_frame>
+							<!--Scale factors in X, Y, Z directions respectively.-->
+							<scale_factors>1 1 1</scale_factors>
+							<!--Default appearance attributes for this Geometry-->
+							<Appearance>
+								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
+								<opacity>1</opacity>
+								<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
+								<color>1 1 1</color>
+							</Appearance>
+							<!--Name of geometry file.-->
+							<mesh_file>pelvis_rv.vtp</mesh_file>
+						</Mesh>
+						<Mesh name="pelvis_geom_2">
+							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+							<socket_frame>..</socket_frame>
+							<!--Scale factors in X, Y, Z directions respectively.-->
+							<scale_factors>1 1 1</scale_factors>
+							<!--Default appearance attributes for this Geometry-->
+							<Appearance>
+								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
+								<opacity>1</opacity>
+								<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
+								<color>1 1 1</color>
+							</Appearance>
+							<!--Name of geometry file.-->
+							<mesh_file>pelvis_lv.vtp</mesh_file>
+						</Mesh>
+					</attached_geometry>
+					<!--The mass of the body (kg)-->
+					<mass>0</mass>
+					<!--The location (Vec3) of the mass center in the body frame.-->
+					<mass_center>0 0 0</mass_center>
+					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
+					<inertia>0 0 0 0 0 0</inertia>
+				</Body>
+				<Body name="sacrum">
+					<!--The geometry used to display the axes of this Frame.-->
+					<FrameGeometry name="frame_geometry">
+						<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+						<socket_frame>..</socket_frame>
+						<!--Scale factors in X, Y, Z directions respectively.-->
+						<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
+					</FrameGeometry>
+					<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
+					<attached_geometry>
+						<Mesh name="sacrum_geom_1">
+							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+							<socket_frame>..</socket_frame>
+							<!--Scale factors in X, Y, Z directions respectively.-->
+							<scale_factors>1 1 1</scale_factors>
+							<!--Default appearance attributes for this Geometry-->
+							<Appearance>
+								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
+								<opacity>1</opacity>
+								<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
+								<color>1 1 1</color>
+							</Appearance>
+							<!--Name of geometry file.-->
+							<mesh_file>sacrum.vtp</mesh_file>
+						</Mesh>
+					</attached_geometry>
+					<!--The mass of the body (kg)-->
+					<mass>7.4859999999999998</mass>
+					<!--The location (Vec3) of the mass center in the body frame.-->
+					<mass_center>0 0 0</mass_center>
+					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
+					<inertia>0.074999999999999997 0.080000000000000002 0.029999999999999999 0 0 0</inertia>
+				</Body>
+				<Body name="lumbar5">
+					<!--The geometry used to display the axes of this Frame.-->
+					<FrameGeometry name="frame_geometry">
+						<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+						<socket_frame>..</socket_frame>
+						<!--Scale factors in X, Y, Z directions respectively.-->
+						<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
+					</FrameGeometry>
+					<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
+					<attached_geometry>
+						<Mesh name="lumbar5_geom_1">
+							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+							<socket_frame>..</socket_frame>
+							<!--Scale factors in X, Y, Z directions respectively.-->
+							<scale_factors>0.87 0.87 0.87</scale_factors>
+							<!--Default appearance attributes for this Geometry-->
+							<Appearance>
+								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
+								<opacity>1</opacity>
+								<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
+								<color>1 1 1</color>
+							</Appearance>
+							<!--Name of geometry file.-->
+							<mesh_file>lumbar5.vtp</mesh_file>
+						</Mesh>
+					</attached_geometry>
+					<!--The mass of the body (kg)-->
+					<mass>1.8240000000000001</mass>
+					<!--The location (Vec3) of the mass center in the body frame.-->
+					<mass_center>0.053744 0.02 0</mass_center>
+					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
+					<inertia>0.012189999999999999 0.017649999999999999 0.0054599999999999996 0 0 0</inertia>
+				</Body>
+				<Body name="lumbar4">
+					<!--The geometry used to display the axes of this Frame.-->
+					<FrameGeometry name="frame_geometry">
+						<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+						<socket_frame>..</socket_frame>
+						<!--Scale factors in X, Y, Z directions respectively.-->
+						<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
+					</FrameGeometry>
+					<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
+					<attached_geometry>
+						<Mesh name="lumbar4_geom_1">
+							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+							<socket_frame>..</socket_frame>
+							<!--Scale factors in X, Y, Z directions respectively.-->
+							<scale_factors>0.87 0.87 0.87</scale_factors>
+							<!--Default appearance attributes for this Geometry-->
+							<Appearance>
+								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
+								<opacity>1</opacity>
+								<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
+								<color>1 1 1</color>
+							</Appearance>
+							<!--Name of geometry file.-->
+							<mesh_file>lumbar4.vtp</mesh_file>
+						</Mesh>
+					</attached_geometry>
+					<!--The mass of the body (kg)-->
+					<mass>1.7989999999999999</mass>
+					<!--The location (Vec3) of the mass center in the body frame.-->
+					<mass_center>0.017029599999999999 0.017999999999999999 0</mass_center>
+					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
+					<inertia>0.01123 0.01643 0.0051999999999999998 0 0 0</inertia>
+				</Body>
+				<Body name="lumbar3">
+					<!--The geometry used to display the axes of this Frame.-->
+					<FrameGeometry name="frame_geometry">
+						<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+						<socket_frame>..</socket_frame>
+						<!--Scale factors in X, Y, Z directions respectively.-->
+						<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
+					</FrameGeometry>
+					<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
+					<attached_geometry>
+						<Mesh name="lumbar3_geom_1">
+							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+							<socket_frame>..</socket_frame>
+							<!--Scale factors in X, Y, Z directions respectively.-->
+							<scale_factors>0.87 0.87 0.87</scale_factors>
+							<!--Default appearance attributes for this Geometry-->
+							<Appearance>
+								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
+								<opacity>1</opacity>
+								<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
+								<color>1 1 1</color>
+							</Appearance>
+							<!--Name of geometry file.-->
+							<mesh_file>lumbar3.vtp</mesh_file>
+						</Mesh>
+					</attached_geometry>
+					<!--The mass of the body (kg)-->
+					<mass>1.6699999999999999</mass>
+					<!--The location (Vec3) of the mass center in the body frame.-->
+					<mass_center>0.0136848 0.017999999999999999 0</mass_center>
+					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
+					<inertia>0.010659999999999999 0.016080000000000001 0.0055100000000000001 0 0 0</inertia>
+				</Body>
+				<Body name="lumbar2">
+					<!--The geometry used to display the axes of this Frame.-->
+					<FrameGeometry name="frame_geometry">
+						<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+						<socket_frame>..</socket_frame>
+						<!--Scale factors in X, Y, Z directions respectively.-->
+						<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
+					</FrameGeometry>
+					<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
+					<attached_geometry>
+						<Mesh name="lumbar2_geom_1">
+							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+							<socket_frame>..</socket_frame>
+							<!--Scale factors in X, Y, Z directions respectively.-->
+							<scale_factors>0.87 0.87 0.87</scale_factors>
+							<!--Default appearance attributes for this Geometry-->
+							<Appearance>
+								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
+								<opacity>1</opacity>
+								<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
+								<color>1 1 1</color>
+							</Appearance>
+							<!--Name of geometry file.-->
+							<mesh_file>lumbar2.vtp</mesh_file>
+						</Mesh>
+					</attached_geometry>
+					<!--The mass of the body (kg)-->
+					<mass>1.6890000000000001</mass>
+					<!--The location (Vec3) of the mass center in the body frame.-->
+					<mass_center>0.024527199999999999 0.017999999999999999 0</mass_center>
+					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
+					<inertia>0.01091 0.016820000000000002 0.0059100000000000003 0 0 0</inertia>
+				</Body>
+				<Body name="lumbar1">
+					<!--The geometry used to display the axes of this Frame.-->
+					<FrameGeometry name="frame_geometry">
+						<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+						<socket_frame>..</socket_frame>
+						<!--Scale factors in X, Y, Z directions respectively.-->
+						<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
+					</FrameGeometry>
+					<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
+					<attached_geometry>
+						<Mesh name="lumbar1_geom_1">
+							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+							<socket_frame>..</socket_frame>
+							<!--Scale factors in X, Y, Z directions respectively.-->
+							<scale_factors>0.87 0.87 0.87</scale_factors>
+							<!--Default appearance attributes for this Geometry-->
+							<Appearance>
+								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
+								<opacity>1</opacity>
+								<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
+								<color>1 1 1</color>
+							</Appearance>
+							<!--Name of geometry file.-->
+							<mesh_file>lumbar1.vtp</mesh_file>
+						</Mesh>
+					</attached_geometry>
+					<!--The mass of the body (kg)-->
+					<mass>1.677</mass>
+					<!--The location (Vec3) of the mass center in the body frame.-->
+					<mass_center>0.039 0.017000000000000001 0</mass_center>
+					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
+					<inertia>0.011129999999999999 0.01753 0.0064000000000000003 0 0 0</inertia>
+				</Body>
+				<Body name="torso">
+					<!--The geometry used to display the axes of this Frame.-->
+					<FrameGeometry name="frame_geometry">
+						<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+						<socket_frame>..</socket_frame>
+						<!--Scale factors in X, Y, Z directions respectively.-->
+						<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
+					</FrameGeometry>
+					<!--List of geometry attached to this Frame. Note, the geometry are treated as fixed to the frame and they share the transform of the frame when visualized-->
+					<attached_geometry>
+						<Mesh name="torso_geom_1">
+							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+							<socket_frame>..</socket_frame>
+							<!--Scale factors in X, Y, Z directions respectively.-->
+							<scale_factors>0.87 0.87 0.87</scale_factors>
+							<!--Default appearance attributes for this Geometry-->
+							<Appearance>
+								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
+								<opacity>1</opacity>
+								<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
+								<color>1 1 1</color>
+							</Appearance>
+							<!--Name of geometry file.-->
+							<mesh_file>thoracic12_s.vtp</mesh_file>
+						</Mesh>
+						<Mesh name="torso_geom_2">
+							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+							<socket_frame>..</socket_frame>
+							<!--Scale factors in X, Y, Z directions respectively.-->
+							<scale_factors>0.87 0.87 0.87</scale_factors>
+							<!--Default appearance attributes for this Geometry-->
+							<Appearance>
+								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
+								<opacity>1</opacity>
+								<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
+								<color>1 1 1</color>
+							</Appearance>
+							<!--Name of geometry file.-->
+							<mesh_file>thoracic11_s.vtp</mesh_file>
+						</Mesh>
+						<Mesh name="torso_geom_3">
+							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+							<socket_frame>..</socket_frame>
+							<!--Scale factors in X, Y, Z directions respectively.-->
+							<scale_factors>0.87 0.87 0.87</scale_factors>
+							<!--Default appearance attributes for this Geometry-->
+							<Appearance>
+								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
+								<opacity>1</opacity>
+								<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
+								<color>1 1 1</color>
+							</Appearance>
+							<!--Name of geometry file.-->
+							<mesh_file>thoracic10_s.vtp</mesh_file>
+						</Mesh>
+						<Mesh name="torso_geom_4">
+							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+							<socket_frame>..</socket_frame>
+							<!--Scale factors in X, Y, Z directions respectively.-->
+							<scale_factors>0.87 0.87 0.87</scale_factors>
+							<!--Default appearance attributes for this Geometry-->
+							<Appearance>
+								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
+								<opacity>1</opacity>
+								<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
+								<color>1 1 1</color>
+							</Appearance>
+							<!--Name of geometry file.-->
+							<mesh_file>thoracic9_s.vtp</mesh_file>
+						</Mesh>
+						<Mesh name="torso_geom_5">
+							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+							<socket_frame>..</socket_frame>
+							<!--Scale factors in X, Y, Z directions respectively.-->
+							<scale_factors>0.87 0.87 0.87</scale_factors>
+							<!--Default appearance attributes for this Geometry-->
+							<Appearance>
+								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
+								<opacity>1</opacity>
+								<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
+								<color>1 1 1</color>
+							</Appearance>
+							<!--Name of geometry file.-->
+							<mesh_file>thoracic8_s.vtp</mesh_file>
+						</Mesh>
+						<Mesh name="torso_geom_6">
+							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+							<socket_frame>..</socket_frame>
+							<!--Scale factors in X, Y, Z directions respectively.-->
+							<scale_factors>0.87 0.87 0.87</scale_factors>
+							<!--Default appearance attributes for this Geometry-->
+							<Appearance>
+								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
+								<opacity>1</opacity>
+								<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
+								<color>1 1 1</color>
+							</Appearance>
+							<!--Name of geometry file.-->
+							<mesh_file>thoracic7_s.vtp</mesh_file>
+						</Mesh>
+						<Mesh name="torso_geom_7">
+							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+							<socket_frame>..</socket_frame>
+							<!--Scale factors in X, Y, Z directions respectively.-->
+							<scale_factors>0.87 0.87 0.87</scale_factors>
+							<!--Default appearance attributes for this Geometry-->
+							<Appearance>
+								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
+								<opacity>1</opacity>
+								<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
+								<color>1 1 1</color>
+							</Appearance>
+							<!--Name of geometry file.-->
+							<mesh_file>thoracic6_s.vtp</mesh_file>
+						</Mesh>
+						<Mesh name="torso_geom_8">
+							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+							<socket_frame>..</socket_frame>
+							<!--Scale factors in X, Y, Z directions respectively.-->
+							<scale_factors>0.87 0.87 0.87</scale_factors>
+							<!--Default appearance attributes for this Geometry-->
+							<Appearance>
+								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
+								<opacity>1</opacity>
+								<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
+								<color>1 1 1</color>
+							</Appearance>
+							<!--Name of geometry file.-->
+							<mesh_file>thoracic5_s.vtp</mesh_file>
+						</Mesh>
+						<Mesh name="torso_geom_9">
+							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+							<socket_frame>..</socket_frame>
+							<!--Scale factors in X, Y, Z directions respectively.-->
+							<scale_factors>0.87 0.87 0.87</scale_factors>
+							<!--Default appearance attributes for this Geometry-->
+							<Appearance>
+								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
+								<opacity>1</opacity>
+								<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
+								<color>1 1 1</color>
+							</Appearance>
+							<!--Name of geometry file.-->
+							<mesh_file>thoracic4_s.vtp</mesh_file>
+						</Mesh>
+						<Mesh name="torso_geom_10">
+							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+							<socket_frame>..</socket_frame>
+							<!--Scale factors in X, Y, Z directions respectively.-->
+							<scale_factors>0.87 0.87 0.87</scale_factors>
+							<!--Default appearance attributes for this Geometry-->
+							<Appearance>
+								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
+								<opacity>1</opacity>
+								<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
+								<color>1 1 1</color>
+							</Appearance>
+							<!--Name of geometry file.-->
+							<mesh_file>thoracic3_s.vtp</mesh_file>
+						</Mesh>
+						<Mesh name="torso_geom_11">
+							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+							<socket_frame>..</socket_frame>
+							<!--Scale factors in X, Y, Z directions respectively.-->
+							<scale_factors>0.87 0.87 0.87</scale_factors>
+							<!--Default appearance attributes for this Geometry-->
+							<Appearance>
+								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
+								<opacity>1</opacity>
+								<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
+								<color>1 1 1</color>
+							</Appearance>
+							<!--Name of geometry file.-->
+							<mesh_file>thoracic2_s.vtp</mesh_file>
+						</Mesh>
+						<Mesh name="torso_geom_12">
+							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+							<socket_frame>..</socket_frame>
+							<!--Scale factors in X, Y, Z directions respectively.-->
+							<scale_factors>0.87 0.87 0.87</scale_factors>
+							<!--Default appearance attributes for this Geometry-->
+							<Appearance>
+								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
+								<opacity>1</opacity>
+								<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
+								<color>1 1 1</color>
+							</Appearance>
+							<!--Name of geometry file.-->
+							<mesh_file>thoracic1_s.vtp</mesh_file>
+						</Mesh>
+						<Mesh name="torso_geom_13">
+							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+							<socket_frame>..</socket_frame>
+							<!--Scale factors in X, Y, Z directions respectively.-->
+							<scale_factors>0.87 0.87 0.87</scale_factors>
+							<!--Default appearance attributes for this Geometry-->
+							<Appearance>
+								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
+								<opacity>1</opacity>
+								<!--The color, (red, green, blue), [0, 1], used to display the geometry. -->
+								<color>1 1 1</color>
+							</Appearance>
+							<!--Name of geometry file.-->
+							<mesh_file>ribcage_s.vtp</mesh_file>
+						</Mesh>
+					</attached_geometry>
+					<!--The mass of the body (kg)-->
+					<mass>18.619</mass>
+					<!--The location (Vec3) of the mass center in the body frame.-->
+					<mass_center>0.0045999999999999999 0.246 0</mass_center>
+					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
+					<inertia>0.16500000000000001 0.14999999999999999 0.125 0 0 0</inertia>
+				</Body>
+			</objects>
+			<groups>
+				<ObjectGroup name="Lumbar_Vertebrae">
+					<members> lumbar1 lumbar2 lumbar3 lumbar4 lumbar5</members>
+				</ObjectGroup>
+			</groups>
+		</BodySet>
+		<!--List of joints that connect the bodies.-->
+		<JointSet name="jointset">
+			<objects>
+				<FreeJoint name="gndpelvis">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The parent frame for the joint.).-->
+					<socket_parent_frame>ground_offset</socket_parent_frame>
+					<!--Path to a Component that satisfies the Socket 'child_frame' of type PhysicalFrame (description: The child frame for the joint.).-->
+					<socket_child_frame>pelvis_offset</socket_child_frame>
+					<!--List containing the generalized coordinates (q's) that parameterize this joint.-->
+					<coordinates>
+						<Coordinate name="gndroll">
+							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
+							<default_value>0</default_value>
+							<!--The speed value of this coordinate before any value has been set. Rotational coordinate value is in rad/s and Translational in m/s.-->
+							<default_speed_value>0</default_speed_value>
+							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
+							<range>-3.1415926535900001 3.1415926535900001</range>
+							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
+							<clamped>false</clamped>
+							<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
+							<locked>false</locked>
+							<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
+							<prescribed_function />
+						</Coordinate>
+						<Coordinate name="gndyaw">
+							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
+							<default_value>0</default_value>
+							<!--The speed value of this coordinate before any value has been set. Rotational coordinate value is in rad/s and Translational in m/s.-->
+							<default_speed_value>0</default_speed_value>
+							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
+							<range>-3.1415926535900001 3.1415926535900001</range>
+							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
+							<clamped>false</clamped>
+							<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
+							<locked>false</locked>
+							<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
+							<prescribed_function />
+						</Coordinate>
+						<Coordinate name="gndpitch">
+							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
+							<default_value>0.38400000000000001</default_value>
+							<!--The speed value of this coordinate before any value has been set. Rotational coordinate value is in rad/s and Translational in m/s.-->
+							<default_speed_value>0</default_speed_value>
+							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
+							<range>-3.1415926535900001 3.1415926535900001</range>
+							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
+							<clamped>false</clamped>
+							<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
+							<locked>false</locked>
+							<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
+							<prescribed_function />
+						</Coordinate>
+						<Coordinate name="spine_tx">
+							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
+							<default_value>0</default_value>
+							<!--The speed value of this coordinate before any value has been set. Rotational coordinate value is in rad/s and Translational in m/s.-->
+							<default_speed_value>0</default_speed_value>
+							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
+							<range>-1 1</range>
+							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
+							<clamped>false</clamped>
+							<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
+							<locked>false</locked>
+							<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
+							<prescribed_function />
+						</Coordinate>
+						<Coordinate name="spine_ty">
+							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
+							<default_value>0</default_value>
+							<!--The speed value of this coordinate before any value has been set. Rotational coordinate value is in rad/s and Translational in m/s.-->
+							<default_speed_value>0</default_speed_value>
+							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
+							<range>-1 1</range>
+							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
+							<clamped>false</clamped>
+							<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
+							<locked>false</locked>
+							<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
+							<prescribed_function />
+						</Coordinate>
+						<Coordinate name="spine_tz">
+							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
+							<default_value>0</default_value>
+							<!--The speed value of this coordinate before any value has been set. Rotational coordinate value is in rad/s and Translational in m/s.-->
+							<default_speed_value>0</default_speed_value>
+							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
+							<range>-1 1</range>
+							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
+							<clamped>false</clamped>
+							<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
+							<locked>false</locked>
+							<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
+							<prescribed_function />
+						</Coordinate>
+					</coordinates>
+					<!--Physical offset frames owned by the Joint that are typically used to satisfy the owning Joint's parent and child frame connections (sockets). PhysicalOffsetFrames are often used to describe the fixed transformation from a Body's origin to another location of interest on the Body (e.g., the joint center). When the joint is deleted, so are the PhysicalOffsetFrame components in this list.-->
+					<frames>
+						<PhysicalOffsetFrame name="ground_offset">
+							<!--The geometry used to display the axes of this Frame.-->
+							<FrameGeometry name="frame_geometry">
+								<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+								<socket_frame>..</socket_frame>
+								<!--Scale factors in X, Y, Z directions respectively.-->
+								<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
+							</FrameGeometry>
+							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
+							<socket_parent>/ground</socket_parent>
+							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
+							<translation>0 0 0</translation>
+							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
+							<orientation>0 0 0</orientation>
+						</PhysicalOffsetFrame>
+						<PhysicalOffsetFrame name="pelvis_offset">
+							<!--The geometry used to display the axes of this Frame.-->
+							<FrameGeometry name="frame_geometry">
+								<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+								<socket_frame>..</socket_frame>
+								<!--Scale factors in X, Y, Z directions respectively.-->
+								<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
+							</FrameGeometry>
+							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
+							<socket_parent>/bodyset/pelvis</socket_parent>
+							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
+							<translation>-0.10000000000000001 -0.14999999999999999 0</translation>
+							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
+							<orientation>0 0 0</orientation>
+						</PhysicalOffsetFrame>
+					</frames>
+				</FreeJoint>
+				<WeldJoint name="gndsacrum">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The parent frame for the joint.).-->
+					<socket_parent_frame>pelvis_offset</socket_parent_frame>
+					<!--Path to a Component that satisfies the Socket 'child_frame' of type PhysicalFrame (description: The child frame for the joint.).-->
+					<socket_child_frame>sacrum_offset</socket_child_frame>
+					<!--Physical offset frames owned by the Joint that are typically used to satisfy the owning Joint's parent and child frame connections (sockets). PhysicalOffsetFrames are often used to describe the fixed transformation from a Body's origin to another location of interest on the Body (e.g., the joint center). When the joint is deleted, so are the PhysicalOffsetFrame components in this list.-->
+					<frames>
+						<PhysicalOffsetFrame name="pelvis_offset">
+							<!--The geometry used to display the axes of this Frame.-->
+							<FrameGeometry name="frame_geometry">
+								<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+								<socket_frame>..</socket_frame>
+								<!--Scale factors in X, Y, Z directions respectively.-->
+								<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
+							</FrameGeometry>
+							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
+							<socket_parent>/bodyset/pelvis</socket_parent>
+							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
+							<translation>0 0 0</translation>
+							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
+							<orientation>0 0 0</orientation>
+						</PhysicalOffsetFrame>
+						<PhysicalOffsetFrame name="sacrum_offset">
+							<!--The geometry used to display the axes of this Frame.-->
+							<FrameGeometry name="frame_geometry">
+								<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+								<socket_frame>..</socket_frame>
+								<!--Scale factors in X, Y, Z directions respectively.-->
+								<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
+							</FrameGeometry>
+							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
+							<socket_parent>/bodyset/sacrum</socket_parent>
+							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
+							<translation>0 0 0</translation>
+							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
+							<orientation>0 0 0</orientation>
+						</PhysicalOffsetFrame>
+					</frames>
+				</WeldJoint>
+				<CustomJoint name="L5_S1_IVDjnt">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The parent frame for the joint.).-->
+					<socket_parent_frame>sacrum_offset</socket_parent_frame>
+					<!--Path to a Component that satisfies the Socket 'child_frame' of type PhysicalFrame (description: The child frame for the joint.).-->
+					<socket_child_frame>lumbar5_offset</socket_child_frame>
+					<!--List containing the generalized coordinates (q's) that parameterize this joint.-->
+					<coordinates>
+						<Coordinate name="flex_extension">
+							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
+							<default_value>1.3875758600738309e-17</default_value>
+							<!--The speed value of this coordinate before any value has been set. Rotational coordinate value is in rad/s and Translational in m/s.-->
+							<default_speed_value>0</default_speed_value>
+							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
+							<range>-1.22173048 0.45378561000000001</range>
+							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
+							<clamped>false</clamped>
+							<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
+							<locked>false</locked>
+							<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
+							<prescribed_function />
+						</Coordinate>
+						<Coordinate name="lat_bending">
+							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
+							<default_value>4.3186424214300664e-19</default_value>
+							<!--The speed value of this coordinate before any value has been set. Rotational coordinate value is in rad/s and Translational in m/s.-->
+							<default_speed_value>0</default_speed_value>
+							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
+							<range>-0.43633231 0.43633231</range>
+							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
+							<clamped>false</clamped>
+							<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
+							<locked>false</locked>
+							<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
+							<prescribed_function />
+						</Coordinate>
+						<Coordinate name="axial_rotation">
+							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
+							<default_value>-4.163336342344337e-17</default_value>
+							<!--The speed value of this coordinate before any value has been set. Rotational coordinate value is in rad/s and Translational in m/s.-->
+							<default_speed_value>0</default_speed_value>
+							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
+							<range>-0.78539816299999998 0.78539816299999998</range>
+							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
+							<clamped>false</clamped>
+							<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
+							<locked>false</locked>
+							<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
+							<prescribed_function />
+						</Coordinate>
+					</coordinates>
+					<!--Physical offset frames owned by the Joint that are typically used to satisfy the owning Joint's parent and child frame connections (sockets). PhysicalOffsetFrames are often used to describe the fixed transformation from a Body's origin to another location of interest on the Body (e.g., the joint center). When the joint is deleted, so are the PhysicalOffsetFrame components in this list.-->
+					<frames>
+						<PhysicalOffsetFrame name="sacrum_offset">
+							<!--The geometry used to display the axes of this Frame.-->
+							<FrameGeometry name="frame_geometry">
+								<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+								<socket_frame>..</socket_frame>
+								<!--Scale factors in X, Y, Z directions respectively.-->
+								<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
+							</FrameGeometry>
+							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
+							<socket_parent>/bodyset/sacrum</socket_parent>
+							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
+							<translation>-0.098000000000000004 0.070999999999999994 -0</translation>
+							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
+							<orientation>0 0 0</orientation>
+						</PhysicalOffsetFrame>
+						<PhysicalOffsetFrame name="lumbar5_offset">
+							<!--The geometry used to display the axes of this Frame.-->
+							<FrameGeometry name="frame_geometry">
+								<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+								<socket_frame>..</socket_frame>
+								<!--Scale factors in X, Y, Z directions respectively.-->
+								<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
+							</FrameGeometry>
+							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
+							<socket_parent>/bodyset/lumbar5</socket_parent>
+							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
+							<translation>0 0 0</translation>
+							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
+							<orientation>0 0 0</orientation>
+						</PhysicalOffsetFrame>
+					</frames>
+					<!--Defines how the child body moves with respect to the parent as a function of the generalized coordinates.-->
+					<SpatialTransform>
+						<!--3 Axes for rotations are listed first.-->
+						<TransformAxis name="rotation1">
+							<!--Names of the coordinates that serve as the independent variables         of the transform function.-->
+							<coordinates>flex_extension</coordinates>
+							<!--Rotation or translation axis for the transform.-->
+							<axis>0 0 1</axis>
+							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
+							<LinearFunction name="function">
+								<coefficients> 0.125 0</coefficients>
+							</LinearFunction>
+						</TransformAxis>
+						<TransformAxis name="rotation2">
+							<!--Names of the coordinates that serve as the independent variables         of the transform function.-->
+							<coordinates>lat_bending</coordinates>
+							<!--Rotation or translation axis for the transform.-->
+							<axis>1 0 0</axis>
+							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
+							<LinearFunction name="function">
+								<coefficients> 0.13559999999999999831 0</coefficients>
+							</LinearFunction>
+						</TransformAxis>
+						<TransformAxis name="rotation3">
+							<!--Names of the coordinates that serve as the independent variables         of the transform function.-->
+							<coordinates>axial_rotation</coordinates>
+							<!--Rotation or translation axis for the transform.-->
+							<axis>0 1 0</axis>
+							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
+							<LinearFunction name="function">
+								<coefficients> 0.20779220779220800019 0</coefficients>
+							</LinearFunction>
+						</TransformAxis>
+						<!--3 Axes for translations are listed next.-->
+						<TransformAxis name="translation1">
+							<!--Names of the coordinates that serve as the independent variables         of the transform function.-->
+							<coordinates></coordinates>
+							<!--Rotation or translation axis for the transform.-->
+							<axis>1 0 0</axis>
+						</TransformAxis>
+						<TransformAxis name="translation2">
+							<!--Names of the coordinates that serve as the independent variables         of the transform function.-->
+							<coordinates></coordinates>
+							<!--Rotation or translation axis for the transform.-->
+							<axis>0 1 0</axis>
+						</TransformAxis>
+						<TransformAxis name="translation3">
+							<!--Names of the coordinates that serve as the independent variables         of the transform function.-->
+							<coordinates></coordinates>
+							<!--Rotation or translation axis for the transform.-->
+							<axis>0 0 1</axis>
+						</TransformAxis>
+					</SpatialTransform>
+				</CustomJoint>
+				<CustomJoint name="L4_L5_IVDjnt">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The parent frame for the joint.).-->
+					<socket_parent_frame>lumbar5_offset</socket_parent_frame>
+					<!--Path to a Component that satisfies the Socket 'child_frame' of type PhysicalFrame (description: The child frame for the joint.).-->
+					<socket_child_frame>lumbar4_offset</socket_child_frame>
+					<!--List containing the generalized coordinates (q's) that parameterize this joint.-->
+					<coordinates>
+						<Coordinate name="L4_L5_FE">
+							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
+							<default_value>2.5670153411365871e-18</default_value>
+							<!--The speed value of this coordinate before any value has been set. Rotational coordinate value is in rad/s and Translational in m/s.-->
+							<default_speed_value>0</default_speed_value>
+							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
+							<range>-99999.899999999994 99999.899999999994</range>
+							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
+							<clamped>false</clamped>
+							<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
+							<locked>false</locked>
+							<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
+							<prescribed_function />
+						</Coordinate>
+						<Coordinate name="L4_L5_LB">
+							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
+							<default_value>7.8204642865222385e-20</default_value>
+							<!--The speed value of this coordinate before any value has been set. Rotational coordinate value is in rad/s and Translational in m/s.-->
+							<default_speed_value>0</default_speed_value>
+							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
+							<range>-99999.899999999994 99999.899999999994</range>
+							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
+							<clamped>false</clamped>
+							<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
+							<locked>false</locked>
+							<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
+							<prescribed_function />
+						</Coordinate>
+						<Coordinate name="L4_L5_AR">
+							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
+							<default_value>-6.9388939039072284e-18</default_value>
+							<!--The speed value of this coordinate before any value has been set. Rotational coordinate value is in rad/s and Translational in m/s.-->
+							<default_speed_value>0</default_speed_value>
+							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
+							<range>-99999.899999999994 99999.899999999994</range>
+							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
+							<clamped>false</clamped>
+							<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
+							<locked>false</locked>
+							<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
+							<prescribed_function />
+						</Coordinate>
+					</coordinates>
+					<!--Physical offset frames owned by the Joint that are typically used to satisfy the owning Joint's parent and child frame connections (sockets). PhysicalOffsetFrames are often used to describe the fixed transformation from a Body's origin to another location of interest on the Body (e.g., the joint center). When the joint is deleted, so are the PhysicalOffsetFrame components in this list.-->
+					<frames>
+						<PhysicalOffsetFrame name="lumbar5_offset">
+							<!--The geometry used to display the axes of this Frame.-->
+							<FrameGeometry name="frame_geometry">
+								<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+								<socket_frame>..</socket_frame>
+								<!--Scale factors in X, Y, Z directions respectively.-->
+								<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
+							</FrameGeometry>
+							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
+							<socket_parent>/bodyset/lumbar5</socket_parent>
+							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
+							<translation>0.01 0.029600000000000001 0</translation>
+							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
+							<orientation>0 0 0</orientation>
+						</PhysicalOffsetFrame>
+						<PhysicalOffsetFrame name="lumbar4_offset">
+							<!--The geometry used to display the axes of this Frame.-->
+							<FrameGeometry name="frame_geometry">
+								<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+								<socket_frame>..</socket_frame>
+								<!--Scale factors in X, Y, Z directions respectively.-->
+								<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
+							</FrameGeometry>
+							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
+							<socket_parent>/bodyset/lumbar4</socket_parent>
+							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
+							<translation>0.001 -0.0025000000000000001 0</translation>
+							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
+							<orientation>0 0 0</orientation>
+						</PhysicalOffsetFrame>
+					</frames>
+					<!--Defines how the child body moves with respect to the parent as a function of the generalized coordinates.-->
+					<SpatialTransform>
+						<!--3 Axes for rotations are listed first.-->
+						<TransformAxis name="rotation1">
+							<!--Names of the coordinates that serve as the independent variables         of the transform function.-->
+							<coordinates>L4_L5_FE</coordinates>
+							<!--Rotation or translation axis for the transform.-->
+							<axis>0 0 1</axis>
+							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
+							<LinearFunction name="function">
+								<coefficients> 1 0</coefficients>
+							</LinearFunction>
+						</TransformAxis>
+						<TransformAxis name="rotation2">
+							<!--Names of the coordinates that serve as the independent variables         of the transform function.-->
+							<coordinates>L4_L5_LB</coordinates>
+							<!--Rotation or translation axis for the transform.-->
+							<axis>1 0 0</axis>
+							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
+							<LinearFunction name="function">
+								<coefficients> 1 0</coefficients>
+							</LinearFunction>
+						</TransformAxis>
+						<TransformAxis name="rotation3">
+							<!--Names of the coordinates that serve as the independent variables         of the transform function.-->
+							<coordinates>L4_L5_AR</coordinates>
+							<!--Rotation or translation axis for the transform.-->
+							<axis>0 1 0</axis>
+							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
+							<LinearFunction name="function">
+								<coefficients> 1 0</coefficients>
+							</LinearFunction>
+						</TransformAxis>
+						<!--3 Axes for translations are listed next.-->
+						<TransformAxis name="translation1">
+							<!--Names of the coordinates that serve as the independent variables         of the transform function.-->
+							<coordinates></coordinates>
+							<!--Rotation or translation axis for the transform.-->
+							<axis>1 0 0</axis>
+							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
+							<Constant name="function">
+								<value>0</value>
+							</Constant>
+						</TransformAxis>
+						<TransformAxis name="translation2">
+							<!--Names of the coordinates that serve as the independent variables         of the transform function.-->
+							<coordinates></coordinates>
+							<!--Rotation or translation axis for the transform.-->
+							<axis>0 1 0</axis>
+							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
+							<Constant name="function">
+								<value>0</value>
+							</Constant>
+						</TransformAxis>
+						<TransformAxis name="translation3">
+							<!--Names of the coordinates that serve as the independent variables         of the transform function.-->
+							<coordinates></coordinates>
+							<!--Rotation or translation axis for the transform.-->
+							<axis>0 0 1</axis>
+							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
+							<Constant name="function">
+								<value>0</value>
+							</Constant>
+						</TransformAxis>
+					</SpatialTransform>
+				</CustomJoint>
+				<CustomJoint name="L3_L4_IVDjnt">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The parent frame for the joint.).-->
+					<socket_parent_frame>lumbar4_offset</socket_parent_frame>
+					<!--Path to a Component that satisfies the Socket 'child_frame' of type PhysicalFrame (description: The child frame for the joint.).-->
+					<socket_child_frame>lumbar3_offset</socket_child_frame>
+					<!--List containing the generalized coordinates (q's) that parameterize this joint.-->
+					<coordinates>
+						<Coordinate name="L3_L4_FE">
+							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
+							<default_value>2.8306547545506146e-18</default_value>
+							<!--The speed value of this coordinate before any value has been set. Rotational coordinate value is in rad/s and Translational in m/s.-->
+							<default_speed_value>0</default_speed_value>
+							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
+							<range>-99999.899999999994 99999.899999999994</range>
+							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
+							<clamped>false</clamped>
+							<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
+							<locked>false</locked>
+							<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
+							<prescribed_function />
+						</Coordinate>
+						<Coordinate name="L3_L4_LB">
+							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
+							<default_value>1.0595010313817964e-19</default_value>
+							<!--The speed value of this coordinate before any value has been set. Rotational coordinate value is in rad/s and Translational in m/s.-->
+							<default_speed_value>0</default_speed_value>
+							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
+							<range>-99999.899999999994 99999.899999999994</range>
+							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
+							<clamped>false</clamped>
+							<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
+							<locked>false</locked>
+							<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
+							<prescribed_function />
+						</Coordinate>
+						<Coordinate name="L3_L4_AR">
+							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
+							<default_value>-6.9388939039072284e-18</default_value>
+							<!--The speed value of this coordinate before any value has been set. Rotational coordinate value is in rad/s and Translational in m/s.-->
+							<default_speed_value>0</default_speed_value>
+							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
+							<range>-99999.899999999994 99999.899999999994</range>
+							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
+							<clamped>false</clamped>
+							<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
+							<locked>false</locked>
+							<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
+							<prescribed_function />
+						</Coordinate>
+					</coordinates>
+					<!--Physical offset frames owned by the Joint that are typically used to satisfy the owning Joint's parent and child frame connections (sockets). PhysicalOffsetFrames are often used to describe the fixed transformation from a Body's origin to another location of interest on the Body (e.g., the joint center). When the joint is deleted, so are the PhysicalOffsetFrame components in this list.-->
+					<frames>
+						<PhysicalOffsetFrame name="lumbar4_offset">
+							<!--The geometry used to display the axes of this Frame.-->
+							<FrameGeometry name="frame_geometry">
+								<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+								<socket_frame>..</socket_frame>
+								<!--Scale factors in X, Y, Z directions respectively.-->
+								<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
+							</FrameGeometry>
+							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
+							<socket_parent>/bodyset/lumbar4</socket_parent>
+							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
+							<translation>0 0.032000000000000001 0</translation>
+							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
+							<orientation>0 0 0</orientation>
+						</PhysicalOffsetFrame>
+						<PhysicalOffsetFrame name="lumbar3_offset">
+							<!--The geometry used to display the axes of this Frame.-->
+							<FrameGeometry name="frame_geometry">
+								<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+								<socket_frame>..</socket_frame>
+								<!--Scale factors in X, Y, Z directions respectively.-->
+								<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
+							</FrameGeometry>
+							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
+							<socket_parent>/bodyset/lumbar3</socket_parent>
+							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
+							<translation>-0.00059999999999999995 -0.0011999999999999999 0</translation>
+							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
+							<orientation>0 0 0</orientation>
+						</PhysicalOffsetFrame>
+					</frames>
+					<!--Defines how the child body moves with respect to the parent as a function of the generalized coordinates.-->
+					<SpatialTransform>
+						<!--3 Axes for rotations are listed first.-->
+						<TransformAxis name="rotation1">
+							<!--Names of the coordinates that serve as the independent variables         of the transform function.-->
+							<coordinates>L3_L4_FE</coordinates>
+							<!--Rotation or translation axis for the transform.-->
+							<axis>0 0 1</axis>
+							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
+							<LinearFunction name="function">
+								<coefficients> 1 0</coefficients>
+							</LinearFunction>
+						</TransformAxis>
+						<TransformAxis name="rotation2">
+							<!--Names of the coordinates that serve as the independent variables         of the transform function.-->
+							<coordinates>L3_L4_LB</coordinates>
+							<!--Rotation or translation axis for the transform.-->
+							<axis>1 0 0</axis>
+							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
+							<LinearFunction name="function">
+								<coefficients> 1 0</coefficients>
+							</LinearFunction>
+						</TransformAxis>
+						<TransformAxis name="rotation3">
+							<!--Names of the coordinates that serve as the independent variables         of the transform function.-->
+							<coordinates>L3_L4_AR</coordinates>
+							<!--Rotation or translation axis for the transform.-->
+							<axis>0 1 0</axis>
+							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
+							<LinearFunction name="function">
+								<coefficients> 1 0</coefficients>
+							</LinearFunction>
+						</TransformAxis>
+						<!--3 Axes for translations are listed next.-->
+						<TransformAxis name="translation1">
+							<!--Names of the coordinates that serve as the independent variables         of the transform function.-->
+							<coordinates></coordinates>
+							<!--Rotation or translation axis for the transform.-->
+							<axis>1 0 0</axis>
+							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
+							<Constant name="function">
+								<value>0</value>
+							</Constant>
+						</TransformAxis>
+						<TransformAxis name="translation2">
+							<!--Names of the coordinates that serve as the independent variables         of the transform function.-->
+							<coordinates></coordinates>
+							<!--Rotation or translation axis for the transform.-->
+							<axis>0 1 0</axis>
+							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
+							<Constant name="function">
+								<value>0</value>
+							</Constant>
+						</TransformAxis>
+						<TransformAxis name="translation3">
+							<!--Names of the coordinates that serve as the independent variables         of the transform function.-->
+							<coordinates></coordinates>
+							<!--Rotation or translation axis for the transform.-->
+							<axis>0 0 1</axis>
+							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
+							<Constant name="function">
+								<value>0</value>
+							</Constant>
+						</TransformAxis>
+					</SpatialTransform>
+				</CustomJoint>
+				<CustomJoint name="L2_L3_IVDjnt">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The parent frame for the joint.).-->
+					<socket_parent_frame>lumbar3_offset</socket_parent_frame>
+					<!--Path to a Component that satisfies the Socket 'child_frame' of type PhysicalFrame (description: The child frame for the joint.).-->
+					<socket_child_frame>lumbar2_offset</socket_child_frame>
+					<!--List containing the generalized coordinates (q's) that parameterize this joint.-->
+					<coordinates>
+						<Coordinate name="L2_L3_FE">
+							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
+							<default_value>3.2053002367705496e-18</default_value>
+							<!--The speed value of this coordinate before any value has been set. Rotational coordinate value is in rad/s and Translational in m/s.-->
+							<default_speed_value>0</default_speed_value>
+							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
+							<range>-99999.899999999994 99999.899999999994</range>
+							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
+							<clamped>false</clamped>
+							<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
+							<locked>false</locked>
+							<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
+							<prescribed_function />
+						</Coordinate>
+						<Coordinate name="L2_L3_LB">
+							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
+							<default_value>1.0802155120408886e-19</default_value>
+							<!--The speed value of this coordinate before any value has been set. Rotational coordinate value is in rad/s and Translational in m/s.-->
+							<default_speed_value>0</default_speed_value>
+							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
+							<range>-99999.899999999994 99999.899999999994</range>
+							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
+							<clamped>false</clamped>
+							<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
+							<locked>false</locked>
+							<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
+							<prescribed_function />
+						</Coordinate>
+						<Coordinate name="L2_L3_AR">
+							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
+							<default_value>-6.9388939039072284e-18</default_value>
+							<!--The speed value of this coordinate before any value has been set. Rotational coordinate value is in rad/s and Translational in m/s.-->
+							<default_speed_value>0</default_speed_value>
+							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
+							<range>-99999.899999999994 99999.899999999994</range>
+							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
+							<clamped>false</clamped>
+							<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
+							<locked>false</locked>
+							<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
+							<prescribed_function />
+						</Coordinate>
+					</coordinates>
+					<!--Physical offset frames owned by the Joint that are typically used to satisfy the owning Joint's parent and child frame connections (sockets). PhysicalOffsetFrames are often used to describe the fixed transformation from a Body's origin to another location of interest on the Body (e.g., the joint center). When the joint is deleted, so are the PhysicalOffsetFrame components in this list.-->
+					<frames>
+						<PhysicalOffsetFrame name="lumbar3_offset">
+							<!--The geometry used to display the axes of this Frame.-->
+							<FrameGeometry name="frame_geometry">
+								<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+								<socket_frame>..</socket_frame>
+								<!--Scale factors in X, Y, Z directions respectively.-->
+								<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
+							</FrameGeometry>
+							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
+							<socket_parent>/bodyset/lumbar3</socket_parent>
+							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
+							<translation>-0.0080000000000000002 0.031199999999999999 0</translation>
+							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
+							<orientation>0 0 0</orientation>
+						</PhysicalOffsetFrame>
+						<PhysicalOffsetFrame name="lumbar2_offset">
+							<!--The geometry used to display the axes of this Frame.-->
+							<FrameGeometry name="frame_geometry">
+								<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+								<socket_frame>..</socket_frame>
+								<!--Scale factors in X, Y, Z directions respectively.-->
+								<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
+							</FrameGeometry>
+							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
+							<socket_parent>/bodyset/lumbar2</socket_parent>
+							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
+							<translation>-0.0012999999999999999 -0.0038999999999999998 0</translation>
+							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
+							<orientation>0 0 0</orientation>
+						</PhysicalOffsetFrame>
+					</frames>
+					<!--Defines how the child body moves with respect to the parent as a function of the generalized coordinates.-->
+					<SpatialTransform>
+						<!--3 Axes for rotations are listed first.-->
+						<TransformAxis name="rotation1">
+							<!--Names of the coordinates that serve as the independent variables         of the transform function.-->
+							<coordinates>L2_L3_FE</coordinates>
+							<!--Rotation or translation axis for the transform.-->
+							<axis>0 0 1</axis>
+							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
+							<LinearFunction name="function">
+								<coefficients> 1 0</coefficients>
+							</LinearFunction>
+						</TransformAxis>
+						<TransformAxis name="rotation2">
+							<!--Names of the coordinates that serve as the independent variables         of the transform function.-->
+							<coordinates>L2_L3_LB</coordinates>
+							<!--Rotation or translation axis for the transform.-->
+							<axis>1 0 0</axis>
+							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
+							<LinearFunction name="function">
+								<coefficients> 1 0</coefficients>
+							</LinearFunction>
+						</TransformAxis>
+						<TransformAxis name="rotation3">
+							<!--Names of the coordinates that serve as the independent variables         of the transform function.-->
+							<coordinates>L2_L3_AR</coordinates>
+							<!--Rotation or translation axis for the transform.-->
+							<axis>0 1 0</axis>
+							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
+							<LinearFunction name="function">
+								<coefficients> 1 0</coefficients>
+							</LinearFunction>
+						</TransformAxis>
+						<!--3 Axes for translations are listed next.-->
+						<TransformAxis name="translation1">
+							<!--Names of the coordinates that serve as the independent variables         of the transform function.-->
+							<coordinates></coordinates>
+							<!--Rotation or translation axis for the transform.-->
+							<axis>1 0 0</axis>
+							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
+							<Constant name="function">
+								<value>0</value>
+							</Constant>
+						</TransformAxis>
+						<TransformAxis name="translation2">
+							<!--Names of the coordinates that serve as the independent variables         of the transform function.-->
+							<coordinates></coordinates>
+							<!--Rotation or translation axis for the transform.-->
+							<axis>0 1 0</axis>
+							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
+							<Constant name="function">
+								<value>0</value>
+							</Constant>
+						</TransformAxis>
+						<TransformAxis name="translation3">
+							<!--Names of the coordinates that serve as the independent variables         of the transform function.-->
+							<coordinates></coordinates>
+							<!--Rotation or translation axis for the transform.-->
+							<axis>0 0 1</axis>
+							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
+							<Constant name="function">
+								<value>0</value>
+							</Constant>
+						</TransformAxis>
+					</SpatialTransform>
+				</CustomJoint>
+				<CustomJoint name="L1_L2_IVDjnt">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The parent frame for the joint.).-->
+					<socket_parent_frame>lumbar2_offset</socket_parent_frame>
+					<!--Path to a Component that satisfies the Socket 'child_frame' of type PhysicalFrame (description: The child frame for the joint.).-->
+					<socket_child_frame>lumbar1_offset</socket_child_frame>
+					<!--List containing the generalized coordinates (q's) that parameterize this joint.-->
+					<coordinates>
+						<Coordinate name="L1_L2_FE">
+							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
+							<default_value>3.5383184431882684e-18</default_value>
+							<!--The speed value of this coordinate before any value has been set. Rotational coordinate value is in rad/s and Translational in m/s.-->
+							<default_speed_value>0</default_speed_value>
+							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
+							<range>-99999.899999999994 99999.899999999994</range>
+							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
+							<clamped>false</clamped>
+							<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
+							<locked>false</locked>
+							<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
+							<prescribed_function />
+						</Coordinate>
+						<Coordinate name="L1_L2_LB">
+							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
+							<default_value>8.1190477522885251e-20</default_value>
+							<!--The speed value of this coordinate before any value has been set. Rotational coordinate value is in rad/s and Translational in m/s.-->
+							<default_speed_value>0</default_speed_value>
+							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
+							<range>-99999.899999999994 99999.899999999994</range>
+							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
+							<clamped>false</clamped>
+							<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
+							<locked>false</locked>
+							<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
+							<prescribed_function />
+						</Coordinate>
+						<Coordinate name="L1_L2_AR">
+							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
+							<default_value>-6.9388939039072284e-18</default_value>
+							<!--The speed value of this coordinate before any value has been set. Rotational coordinate value is in rad/s and Translational in m/s.-->
+							<default_speed_value>0</default_speed_value>
+							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
+							<range>-99999.899999999994 99999.899999999994</range>
+							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
+							<clamped>false</clamped>
+							<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
+							<locked>false</locked>
+							<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
+							<prescribed_function />
+						</Coordinate>
+					</coordinates>
+					<!--Physical offset frames owned by the Joint that are typically used to satisfy the owning Joint's parent and child frame connections (sockets). PhysicalOffsetFrames are often used to describe the fixed transformation from a Body's origin to another location of interest on the Body (e.g., the joint center). When the joint is deleted, so are the PhysicalOffsetFrame components in this list.-->
+					<frames>
+						<PhysicalOffsetFrame name="lumbar2_offset">
+							<!--The geometry used to display the axes of this Frame.-->
+							<FrameGeometry name="frame_geometry">
+								<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+								<socket_frame>..</socket_frame>
+								<!--Scale factors in X, Y, Z directions respectively.-->
+								<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
+							</FrameGeometry>
+							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
+							<socket_parent>/bodyset/lumbar2</socket_parent>
+							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
+							<translation>-0.01 0.025000000000000001 0</translation>
+							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
+							<orientation>0 0 0</orientation>
+						</PhysicalOffsetFrame>
+						<PhysicalOffsetFrame name="lumbar1_offset">
+							<!--The geometry used to display the axes of this Frame.-->
+							<FrameGeometry name="frame_geometry">
+								<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+								<socket_frame>..</socket_frame>
+								<!--Scale factors in X, Y, Z directions respectively.-->
+								<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
+							</FrameGeometry>
+							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
+							<socket_parent>/bodyset/lumbar1</socket_parent>
+							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
+							<translation>0.0014 -0.0038 0</translation>
+							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
+							<orientation>0 0 0</orientation>
+						</PhysicalOffsetFrame>
+					</frames>
+					<!--Defines how the child body moves with respect to the parent as a function of the generalized coordinates.-->
+					<SpatialTransform>
+						<!--3 Axes for rotations are listed first.-->
+						<TransformAxis name="rotation1">
+							<!--Names of the coordinates that serve as the independent variables         of the transform function.-->
+							<coordinates>L1_L2_FE</coordinates>
+							<!--Rotation or translation axis for the transform.-->
+							<axis>0 0 1</axis>
+							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
+							<LinearFunction name="function">
+								<coefficients> 1 0</coefficients>
+							</LinearFunction>
+						</TransformAxis>
+						<TransformAxis name="rotation2">
+							<!--Names of the coordinates that serve as the independent variables         of the transform function.-->
+							<coordinates>L1_L2_LB</coordinates>
+							<!--Rotation or translation axis for the transform.-->
+							<axis>1 0 0</axis>
+							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
+							<LinearFunction name="function">
+								<coefficients> 1 0</coefficients>
+							</LinearFunction>
+						</TransformAxis>
+						<TransformAxis name="rotation3">
+							<!--Names of the coordinates that serve as the independent variables         of the transform function.-->
+							<coordinates>L1_L2_AR</coordinates>
+							<!--Rotation or translation axis for the transform.-->
+							<axis>0 1 0</axis>
+							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
+							<LinearFunction name="function">
+								<coefficients> 1 0</coefficients>
+							</LinearFunction>
+						</TransformAxis>
+						<!--3 Axes for translations are listed next.-->
+						<TransformAxis name="translation1">
+							<!--Names of the coordinates that serve as the independent variables         of the transform function.-->
+							<coordinates></coordinates>
+							<!--Rotation or translation axis for the transform.-->
+							<axis>1 0 0</axis>
+							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
+							<Constant name="function">
+								<value>0</value>
+							</Constant>
+						</TransformAxis>
+						<TransformAxis name="translation2">
+							<!--Names of the coordinates that serve as the independent variables         of the transform function.-->
+							<coordinates></coordinates>
+							<!--Rotation or translation axis for the transform.-->
+							<axis>0 1 0</axis>
+							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
+							<Constant name="function">
+								<value>0</value>
+							</Constant>
+						</TransformAxis>
+						<TransformAxis name="translation3">
+							<!--Names of the coordinates that serve as the independent variables         of the transform function.-->
+							<coordinates></coordinates>
+							<!--Rotation or translation axis for the transform.-->
+							<axis>0 0 1</axis>
+							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
+							<Constant name="function">
+								<value>0</value>
+							</Constant>
+						</TransformAxis>
+					</SpatialTransform>
+				</CustomJoint>
+				<WeldJoint name="torsojnt">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The parent frame for the joint.).-->
+					<socket_parent_frame>lumbar1_offset</socket_parent_frame>
+					<!--Path to a Component that satisfies the Socket 'child_frame' of type PhysicalFrame (description: The child frame for the joint.).-->
+					<socket_child_frame>torso_offset</socket_child_frame>
+					<!--Physical offset frames owned by the Joint that are typically used to satisfy the owning Joint's parent and child frame connections (sockets). PhysicalOffsetFrames are often used to describe the fixed transformation from a Body's origin to another location of interest on the Body (e.g., the joint center). When the joint is deleted, so are the PhysicalOffsetFrame components in this list.-->
+					<frames>
+						<PhysicalOffsetFrame name="lumbar1_offset">
+							<!--The geometry used to display the axes of this Frame.-->
+							<FrameGeometry name="frame_geometry">
+								<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+								<socket_frame>..</socket_frame>
+								<!--Scale factors in X, Y, Z directions respectively.-->
+								<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
+							</FrameGeometry>
+							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
+							<socket_parent>/bodyset/lumbar1</socket_parent>
+							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
+							<translation>0.0025000000000000001 -0.088999999999999996 0</translation>
+							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
+							<orientation>0 0 0</orientation>
+						</PhysicalOffsetFrame>
+						<PhysicalOffsetFrame name="torso_offset">
+							<!--The geometry used to display the axes of this Frame.-->
+							<FrameGeometry name="frame_geometry">
+								<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
+								<socket_frame>..</socket_frame>
+								<!--Scale factors in X, Y, Z directions respectively.-->
+								<scale_factors>0.20000000000000001 0.20000000000000001 0.20000000000000001</scale_factors>
+							</FrameGeometry>
+							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
+							<socket_parent>/bodyset/torso</socket_parent>
+							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
+							<translation>0 0 0</translation>
+							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
+							<orientation>0 0 0</orientation>
+						</PhysicalOffsetFrame>
+					</frames>
+				</WeldJoint>
+			</objects>
+		</JointSet>
+		<!--Controllers that provide the control inputs for Actuators.-->
+		<ControllerSet name="controllerset">
+			<objects />
+			<groups />
+		</ControllerSet>
+		<!--Constraints in the model.-->
+		<ConstraintSet name="constraintset">
+			<objects>
+				<CoordinateCouplerConstraint name="L4_L5_FE_con">
+					<!--Flag indicating whether the constraint is enforced or not.Enforced means that the constraint is active in subsequent dynamics realizations. NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant the constraint was not being enforced. Thus, if 'isDisabled' is'true', then 'isEnforced' is false.-->
+					<isEnforced>true</isEnforced>
+					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
+					<coupled_coordinates_function>
+						<LinearFunction>
+							<coefficients> 0.18499999999999999778 0</coefficients>
+						</LinearFunction>
+					</coupled_coordinates_function>
+					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
+					<independent_coordinate_names>flex_extension</independent_coordinate_names>
+					<!--Name of the left-hand side (dependent) coordinate of the constraint coupling function.-->
+					<dependent_coordinate_name>L4_L5_FE</dependent_coordinate_name>
+					<!--Scale factor for the coupling function.-->
+					<scale_factor>1</scale_factor>
+				</CoordinateCouplerConstraint>
+				<CoordinateCouplerConstraint name="L4_L5_AR_con">
+					<!--Flag indicating whether the constraint is enforced or not.Enforced means that the constraint is active in subsequent dynamics realizations. NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant the constraint was not being enforced. Thus, if 'isDisabled' is'true', then 'isEnforced' is false.-->
+					<isEnforced>true</isEnforced>
+					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
+					<coupled_coordinates_function>
+						<LinearFunction>
+							<coefficients> 0.22077922077922099153 0</coefficients>
+						</LinearFunction>
+					</coupled_coordinates_function>
+					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
+					<independent_coordinate_names>axial_rotation</independent_coordinate_names>
+					<!--Name of the left-hand side (dependent) coordinate of the constraint coupling function.-->
+					<dependent_coordinate_name>L4_L5_AR</dependent_coordinate_name>
+					<!--Scale factor for the coupling function.-->
+					<scale_factor>1</scale_factor>
+				</CoordinateCouplerConstraint>
+				<CoordinateCouplerConstraint name="L4_L5_LB_con">
+					<!--Flag indicating whether the constraint is enforced or not.Enforced means that the constraint is active in subsequent dynamics realizations. NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant the constraint was not being enforced. Thus, if 'isDisabled' is'true', then 'isEnforced' is false.-->
+					<isEnforced>true</isEnforced>
+					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
+					<coupled_coordinates_function>
+						<LinearFunction>
+							<coefficients> 0.18108617299999998917 0</coefficients>
+						</LinearFunction>
+					</coupled_coordinates_function>
+					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
+					<independent_coordinate_names>lat_bending</independent_coordinate_names>
+					<!--Name of the left-hand side (dependent) coordinate of the constraint coupling function.-->
+					<dependent_coordinate_name>L4_L5_LB</dependent_coordinate_name>
+					<!--Scale factor for the coupling function.-->
+					<scale_factor>1</scale_factor>
+				</CoordinateCouplerConstraint>
+				<CoordinateCouplerConstraint name="L3_L4_FE_con">
+					<!--Flag indicating whether the constraint is enforced or not.Enforced means that the constraint is active in subsequent dynamics realizations. NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant the constraint was not being enforced. Thus, if 'isDisabled' is'true', then 'isEnforced' is false.-->
+					<isEnforced>true</isEnforced>
+					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
+					<coupled_coordinates_function>
+						<LinearFunction>
+							<coefficients> 0.2039999999999999869 0</coefficients>
+						</LinearFunction>
+					</coupled_coordinates_function>
+					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
+					<independent_coordinate_names>flex_extension</independent_coordinate_names>
+					<!--Name of the left-hand side (dependent) coordinate of the constraint coupling function.-->
+					<dependent_coordinate_name>L3_L4_FE</dependent_coordinate_name>
+					<!--Scale factor for the coupling function.-->
+					<scale_factor>1</scale_factor>
+				</CoordinateCouplerConstraint>
+				<CoordinateCouplerConstraint name="L3_L4_AR_con">
+					<!--Flag indicating whether the constraint is enforced or not.Enforced means that the constraint is active in subsequent dynamics realizations. NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant the constraint was not being enforced. Thus, if 'isDisabled' is'true', then 'isEnforced' is false.-->
+					<isEnforced>true</isEnforced>
+					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
+					<coupled_coordinates_function>
+						<LinearFunction>
+							<coefficients> 0.22077922077922099153 0</coefficients>
+						</LinearFunction>
+					</coupled_coordinates_function>
+					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
+					<independent_coordinate_names>axial_rotation</independent_coordinate_names>
+					<!--Name of the left-hand side (dependent) coordinate of the constraint coupling function.-->
+					<dependent_coordinate_name>L3_L4_AR</dependent_coordinate_name>
+					<!--Scale factor for the coupling function.-->
+					<scale_factor>1</scale_factor>
+				</CoordinateCouplerConstraint>
+				<CoordinateCouplerConstraint name="L3_L4_LB_con">
+					<!--Flag indicating whether the constraint is enforced or not.Enforced means that the constraint is active in subsequent dynamics realizations. NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant the constraint was not being enforced. Thus, if 'isDisabled' is'true', then 'isEnforced' is false.-->
+					<isEnforced>true</isEnforced>
+					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
+					<coupled_coordinates_function>
+						<LinearFunction>
+							<coefficients> 0.24533196500000001294 0</coefficients>
+						</LinearFunction>
+					</coupled_coordinates_function>
+					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
+					<independent_coordinate_names>lat_bending</independent_coordinate_names>
+					<!--Name of the left-hand side (dependent) coordinate of the constraint coupling function.-->
+					<dependent_coordinate_name>L3_L4_LB</dependent_coordinate_name>
+					<!--Scale factor for the coupling function.-->
+					<scale_factor>1</scale_factor>
+				</CoordinateCouplerConstraint>
+				<CoordinateCouplerConstraint name="L2_L3_FE_con">
+					<!--Flag indicating whether the constraint is enforced or not.Enforced means that the constraint is active in subsequent dynamics realizations. NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant the constraint was not being enforced. Thus, if 'isDisabled' is'true', then 'isEnforced' is false.-->
+					<isEnforced>true</isEnforced>
+					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
+					<coupled_coordinates_function>
+						<LinearFunction>
+							<coefficients> 0.23100000000000001088 0</coefficients>
+						</LinearFunction>
+					</coupled_coordinates_function>
+					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
+					<independent_coordinate_names>flex_extension</independent_coordinate_names>
+					<!--Name of the left-hand side (dependent) coordinate of the constraint coupling function.-->
+					<dependent_coordinate_name>L2_L3_FE</dependent_coordinate_name>
+					<!--Scale factor for the coupling function.-->
+					<scale_factor>1</scale_factor>
+				</CoordinateCouplerConstraint>
+				<CoordinateCouplerConstraint name="L2_L3_AR_con">
+					<!--Flag indicating whether the constraint is enforced or not.Enforced means that the constraint is active in subsequent dynamics realizations. NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant the constraint was not being enforced. Thus, if 'isDisabled' is'true', then 'isEnforced' is false.-->
+					<isEnforced>true</isEnforced>
+					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
+					<coupled_coordinates_function>
+						<LinearFunction>
+							<coefficients> 0.18181818181818198976 0</coefficients>
+						</LinearFunction>
+					</coupled_coordinates_function>
+					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
+					<independent_coordinate_names>axial_rotation</independent_coordinate_names>
+					<!--Name of the left-hand side (dependent) coordinate of the constraint coupling function.-->
+					<dependent_coordinate_name>L2_L3_AR</dependent_coordinate_name>
+					<!--Scale factor for the coupling function.-->
+					<scale_factor>1</scale_factor>
+				</CoordinateCouplerConstraint>
+				<CoordinateCouplerConstraint name="L2_L3_LB_con">
+					<!--Flag indicating whether the constraint is enforced or not.Enforced means that the constraint is active in subsequent dynamics realizations. NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant the constraint was not being enforced. Thus, if 'isDisabled' is'true', then 'isEnforced' is false.-->
+					<isEnforced>true</isEnforced>
+					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
+					<coupled_coordinates_function>
+						<LinearFunction>
+							<coefficients> 0.25012849100000000835 0</coefficients>
+						</LinearFunction>
+					</coupled_coordinates_function>
+					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
+					<independent_coordinate_names>lat_bending</independent_coordinate_names>
+					<!--Name of the left-hand side (dependent) coordinate of the constraint coupling function.-->
+					<dependent_coordinate_name>L2_L3_LB</dependent_coordinate_name>
+					<!--Scale factor for the coupling function.-->
+					<scale_factor>1</scale_factor>
+				</CoordinateCouplerConstraint>
+				<CoordinateCouplerConstraint name="L1_L2_FE_con">
+					<!--Flag indicating whether the constraint is enforced or not.Enforced means that the constraint is active in subsequent dynamics realizations. NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant the constraint was not being enforced. Thus, if 'isDisabled' is'true', then 'isEnforced' is false.-->
+					<isEnforced>true</isEnforced>
+					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
+					<coupled_coordinates_function>
+						<LinearFunction>
+							<coefficients> 0.25500000000000000444 0</coefficients>
+						</LinearFunction>
+					</coupled_coordinates_function>
+					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
+					<independent_coordinate_names>flex_extension</independent_coordinate_names>
+					<!--Name of the left-hand side (dependent) coordinate of the constraint coupling function.-->
+					<dependent_coordinate_name>L1_L2_FE</dependent_coordinate_name>
+					<!--Scale factor for the coupling function.-->
+					<scale_factor>1</scale_factor>
+				</CoordinateCouplerConstraint>
+				<CoordinateCouplerConstraint name="L1_L2_AR_con">
+					<!--Flag indicating whether the constraint is enforced or not.Enforced means that the constraint is active in subsequent dynamics realizations. NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant the constraint was not being enforced. Thus, if 'isDisabled' is'true', then 'isEnforced' is false.-->
+					<isEnforced>true</isEnforced>
+					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
+					<coupled_coordinates_function>
+						<LinearFunction>
+							<coefficients> 0.16883116883116899842 0</coefficients>
+						</LinearFunction>
+					</coupled_coordinates_function>
+					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
+					<independent_coordinate_names>axial_rotation</independent_coordinate_names>
+					<!--Name of the left-hand side (dependent) coordinate of the constraint coupling function.-->
+					<dependent_coordinate_name>L1_L2_AR</dependent_coordinate_name>
+					<!--Scale factor for the coupling function.-->
+					<scale_factor>1</scale_factor>
+				</CoordinateCouplerConstraint>
+				<CoordinateCouplerConstraint name="L1_L2_LB_con">
+					<!--Flag indicating whether the constraint is enforced or not.Enforced means that the constraint is active in subsequent dynamics realizations. NOTE: Prior to OpenSim 4.0, this behavior was controlled by the 'isDisabled' property, where 'true' meant the constraint was not being enforced. Thus, if 'isDisabled' is'true', then 'isEnforced' is false.-->
+					<isEnforced>true</isEnforced>
+					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
+					<coupled_coordinates_function>
+						<LinearFunction>
+							<coefficients> 0.18800000000000000044 0</coefficients>
+						</LinearFunction>
+					</coupled_coordinates_function>
+					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
+					<independent_coordinate_names>lat_bending</independent_coordinate_names>
+					<!--Name of the left-hand side (dependent) coordinate of the constraint coupling function.-->
+					<dependent_coordinate_name>L1_L2_LB</dependent_coordinate_name>
+					<!--Scale factor for the coupling function.-->
+					<scale_factor>1</scale_factor>
+				</CoordinateCouplerConstraint>
+			</objects>
+			<groups />
+		</ConstraintSet>
+		<!--Forces in the model (includes Actuators).-->
+		<ForceSet name="forceset">
+			<objects />
+			<groups />
+		</ForceSet>
+		<!--Markers in the model.-->
+		<MarkerSet name="markerset">
+			<objects />
+			<groups />
+		</MarkerSet>
+		<!--Geometry to be used in contact forces.-->
+		<ContactGeometrySet name="contactgeometryset">
+			<objects />
+			<groups />
+		</ContactGeometrySet>
+	</Model>
+</OpenSimDocument>

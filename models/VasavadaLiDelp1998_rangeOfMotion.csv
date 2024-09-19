@@ -1,0 +1,12 @@
+Table 2,,,,
+Lateral Bending,ROM (deg),ROM (rad),One-sided,Variable name
+Skull-C2,13,=B3*PI()/180,=C3*0.5,roll1
+C2-T1,67,=B4*PI()/180,=C4*0.5,roll2
+,,,,
+Axial Rotation,ROM (deg),ROM (rad),One-sided,
+Skull-C2,77,=B7*PI()/180,=C7*0.5,yaw1
+C2-T1,55,=B8*PI()/180,=C8*0.5,yaw2
+,,,,
+Flexion Extension,ROM (deg),ROM (rad),One-sided,
+Skull-C2,40,=B11*PI()/180,=C11*0.5,pitch1
+C2-T1,82,=B12*PI()/180,=C12*0.5,pitch2

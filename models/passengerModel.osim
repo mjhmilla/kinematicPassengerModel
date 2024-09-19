@@ -18,7 +18,7 @@
 		<!--Credits (e.g., model author names) associated with the model.-->
 		<credits>Matthew Millard, University of Stuttgart</credits>
 		<!--Publications and references associated with the model.-->
-		<publications>[1] Christophy M, Faruk Senan NA, Lotz JC, O'Reilly OM (2012). A Musculoskeletal model for the lumbar spine. Biomech Model Mechanobiol 11, 19–34. https://doi.org/10.1007/s10237-011-0290-6, [2] Mortensen JD, Vasavada AN, Merryweather AS (2018) The inclusion of hyoid muscles improve moment generating capacity and dynamic simulations in musculoskeletal models of the head and neck. PLOS ONE 13(6): e0199912. https://doi.org/10.1371/journal.pone.0199912 </publications>
+		<publications>[1] Christophy M, Faruk Senan NA, Lotz JC, O'Reilly OM (2012). A Musculoskeletal model for the lumbar spine. Biomech Model Mechanobiol 11, 19–34. https://doi.org/10.1007/s10237-011-0290-6, [2] Mortensen JD, Vasavada AN, Merryweather AS (2018) The inclusion of hyoid muscles improve moment generating capacity and dynamic simulations in musculoskeletal models of the head and neck. PLOS ONE 13(6): e0199912. https://doi.org/10.1371/journal.pone.0199912</publications>
 		<!--Units for all lengths.-->
 		<length_units>meters</length_units>
 		<!--Units for all forces.-->
@@ -1004,7 +1004,7 @@
 					<mass_center>0 0.04733742854824808 0</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
 					<inertia>0 0 0 0 0 0</inertia>
-				</Body>				
+				</Body>
 			</objects>
 			<groups>
 				<ObjectGroup name="Lumbar_Vertebrae">
@@ -1217,7 +1217,7 @@
 						</Coordinate>
 						<Coordinate name="axial_rotation">
 							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
-							<default_value>-4.163336342344337e-17</default_value>
+							<default_value>-4.1632284975670352e-17</default_value>
 							<!--The speed value of this coordinate before any value has been set. Rotational coordinate value is in rad/s and Translational in m/s.-->
 							<default_speed_value>0</default_speed_value>
 							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
@@ -1354,7 +1354,7 @@
 						</Coordinate>
 						<Coordinate name="L4_L5_AR">
 							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
-							<default_value>-6.9388939039072284e-18</default_value>
+							<default_value>-9.1915434361869694e-18</default_value>
 							<!--The speed value of this coordinate before any value has been set. Rotational coordinate value is in rad/s and Translational in m/s.-->
 							<default_speed_value>0</default_speed_value>
 							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
@@ -1503,7 +1503,7 @@
 						</Coordinate>
 						<Coordinate name="L3_L4_AR">
 							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
-							<default_value>-6.9388939039072284e-18</default_value>
+							<default_value>-9.1915434361869694e-18</default_value>
 							<!--The speed value of this coordinate before any value has been set. Rotational coordinate value is in rad/s and Translational in m/s.-->
 							<default_speed_value>0</default_speed_value>
 							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
@@ -1652,7 +1652,7 @@
 						</Coordinate>
 						<Coordinate name="L2_L3_AR">
 							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
-							<default_value>-6.9388939039072284e-18</default_value>
+							<default_value>-7.5695063592127989e-18</default_value>
 							<!--The speed value of this coordinate before any value has been set. Rotational coordinate value is in rad/s and Translational in m/s.-->
 							<default_speed_value>0</default_speed_value>
 							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
@@ -1801,7 +1801,7 @@
 						</Coordinate>
 						<Coordinate name="L1_L2_AR">
 							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
-							<default_value>-6.9388939039072284e-18</default_value>
+							<default_value>-7.028827333554742e-18</default_value>
 							<!--The speed value of this coordinate before any value has been set. Rotational coordinate value is in rad/s and Translational in m/s.-->
 							<default_speed_value>0</default_speed_value>
 							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
@@ -2117,9 +2117,9 @@
 					<coordinates>
 						<Coordinate name="pitch2">
 							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
-							<default_value>1.1919522357357699e-06</default_value>
+							<default_value>0.059999995804409338</default_value>
 							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
-							<range>-0.785398 0.83775804095700002</range>
+							<range>-0.71599999999999997 0.71599999999999997</range>
 							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
 							<clamped>true</clamped>
 							<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
@@ -2129,9 +2129,9 @@
 						</Coordinate>
 						<Coordinate name="roll2">
 							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
-							<default_value>-7.4174250131117104e-34</default_value>
+							<default_value>-0.0069999999830677772</default_value>
 							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
-							<range>-0.57595865315799999 0.57595865315799999</range>
+							<range>-0.58499999999999996 0.58499999999999996</range>
 							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
 							<clamped>true</clamped>
 							<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
@@ -2141,9 +2141,9 @@
 						</Coordinate>
 						<Coordinate name="yaw2">
 							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
-							<default_value>-1.9407316203898701e-33</default_value>
+							<default_value>0.01700000095010764</default_value>
 							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
-							<range>-0.47123889803800001 0.47123889803800001</range>
+							<range>-0.47999999999999998 0.47999999999999998</range>
 							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
 							<clamped>true</clamped>
 							<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
@@ -2165,7 +2165,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>/bodyset/torso</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>-0.02 0.39 0</translation>
+							<translation>-0.02 0.39000000000000001 0</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>0 0 0</orientation>
 						</PhysicalOffsetFrame>
@@ -2195,8 +2195,8 @@
 							<axis>0 0 1</axis>
 							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
 							<SimmSpline name="function">
-								<x> -1.74533 1.74533</x>
-								<y> -0.172788 0.172788</y>
+								<x> -1.745330000000000048 1.745330000000000048</x>
+								<y> -0.17278799999999999715 0.17278799999999999715</y>
 							</SimmSpline>
 						</TransformAxis>
 						<TransformAxis name="rotation2">
@@ -2206,8 +2206,8 @@
 							<axis>1 0 0</axis>
 							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
 							<SimmSpline name="function">
-								<x> -1.74533 1.74533</x>
-								<y> -0.136136 0.136136</y>
+								<x> -1.745330000000000048 1.745330000000000048</x>
+								<y> -0.136136000000000007 0.136136000000000007</y>
 							</SimmSpline>
 						</TransformAxis>
 						<TransformAxis name="rotation3">
@@ -2217,8 +2217,8 @@
 							<axis>0 1 0</axis>
 							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
 							<SimmSpline name="function">
-								<x> -1.74533 1.74533</x>
-								<y> -0.109956 0.109956</y>
+								<x> -1.745330000000000048 1.745330000000000048</x>
+								<y> -0.10995599999999999818 0.10995599999999999818</y>
 							</SimmSpline>
 						</TransformAxis>
 						<!--3 Axes for translations are listed next.-->
@@ -2272,7 +2272,7 @@
 					<coordinates>
 						<Coordinate name="aux7jnt_r3">
 							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
-							<default_value>2.22895266139609e-07</default_value>
+							<default_value>0.011220009184885195</default_value>
 							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
 							<range>-99999.899999999994 99999.899999999994</range>
 							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
@@ -2284,7 +2284,7 @@
 						</Coordinate>
 						<Coordinate name="aux7jnt_r1">
 							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
-							<default_value>0</default_value>
+							<default_value>-0.00095899915543269849</default_value>
 							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
 							<range>-99999.899999999994 99999.899999999994</range>
 							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
@@ -2296,7 +2296,7 @@
 						</Coordinate>
 						<Coordinate name="aux7jnt_r2">
 							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
-							<default_value>0</default_value>
+							<default_value>0.0031959997890090718</default_value>
 							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
 							<range>-99999.899999999994 99999.899999999994</range>
 							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
@@ -2424,7 +2424,7 @@
 					<coordinates>
 						<Coordinate name="aux6jnt_r3">
 							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
-							<default_value>2.62229082107135e-07</default_value>
+							<default_value>0.01319997845049971</default_value>
 							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
 							<range>-99999.899999999994 99999.899999999994</range>
 							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
@@ -2436,7 +2436,7 @@
 						</Coordinate>
 						<Coordinate name="aux6jnt_r1">
 							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
-							<default_value>0</default_value>
+							<default_value>-0.0010990007593752213</default_value>
 							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
 							<range>-99999.899999999994 99999.899999999994</range>
 							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
@@ -2448,7 +2448,7 @@
 						</Coordinate>
 						<Coordinate name="aux6jnt_r2">
 							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
-							<default_value>0</default_value>
+							<default_value>0.0037229975781982662</default_value>
 							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
 							<range>-99999.899999999994 99999.899999999994</range>
 							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
@@ -2576,7 +2576,7 @@
 					<coordinates>
 						<Coordinate name="aux5jnt_r3">
 							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
-							<default_value>2.62229082107135e-07</default_value>
+							<default_value>0.01319997845049971</default_value>
 							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
 							<range>-99999.899999999994 99999.899999999994</range>
 							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
@@ -2588,7 +2588,7 @@
 						</Coordinate>
 						<Coordinate name="aux5jnt_r1">
 							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
-							<default_value>0</default_value>
+							<default_value>-0.0015119988733458792</default_value>
 							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
 							<range>-99999.899999999994 99999.899999999994</range>
 							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
@@ -2600,7 +2600,7 @@
 						</Coordinate>
 						<Coordinate name="aux5jnt_r2">
 							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
-							<default_value>0</default_value>
+							<default_value>0.0037229975781982662</default_value>
 							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
 							<range>-99999.899999999994 99999.899999999994</range>
 							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
@@ -2728,7 +2728,7 @@
 					<coordinates>
 						<Coordinate name="aux4jnt_r3">
 							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
-							<default_value>1.9667181158035101e-07</default_value>
+							<default_value>0.0098999838378747689</default_value>
 							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
 							<range>-99999.899999999994 99999.899999999994</range>
 							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
@@ -2740,7 +2740,7 @@
 						</Coordinate>
 						<Coordinate name="aux4jnt_r1">
 							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
-							<default_value>0</default_value>
+							<default_value>-0.0015119988733458792</default_value>
 							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
 							<range>-99999.899999999994 99999.899999999994</range>
 							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
@@ -2752,7 +2752,7 @@
 						</Coordinate>
 						<Coordinate name="aux4jnt_r2">
 							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
-							<default_value>0</default_value>
+							<default_value>0.0037229975781982662</default_value>
 							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
 							<range>-99999.899999999994 99999.899999999994</range>
 							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
@@ -2880,7 +2880,7 @@
 					<coordinates>
 						<Coordinate name="aux3jnt_r3">
 							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
-							<default_value>1.31114541053568e-07</default_value>
+							<default_value>0.0065999892252498549</default_value>
 							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
 							<range>-99999.899999999994 99999.899999999994</range>
 							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
@@ -2892,7 +2892,7 @@
 						</Coordinate>
 						<Coordinate name="aux3jnt_r1">
 							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
-							<default_value>0</default_value>
+							<default_value>-0.0013720012801062139</default_value>
 							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
 							<range>-99999.899999999994 99999.899999999994</range>
 							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
@@ -2904,7 +2904,7 @@
 						</Coordinate>
 						<Coordinate name="aux3jnt_r2">
 							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
-							<default_value>0</default_value>
+							<default_value>0.0015979998945045359</default_value>
 							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
 							<range>-99999.899999999994 99999.899999999994</range>
 							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
@@ -3032,9 +3032,9 @@
 					<coordinates>
 						<Coordinate name="pitch1">
 							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
-							<default_value>1.57416137518302e-06</default_value>
+							<default_value>0.009000000608015318</default_value>
 							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
-							<range>-0.27925268031900002 0.418879020479</range>
+							<range>-0.34899999999999998 0.34899999999999998</range>
 							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
 							<clamped>true</clamped>
 							<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
@@ -3044,9 +3044,9 @@
 						</Coordinate>
 						<Coordinate name="roll1">
 							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
-							<default_value>-1.88940466950217e-33</default_value>
+							<default_value>-2.5766410182481753e-11</default_value>
 							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
-							<range>-0.10471975511999999 0.10471975511999999</range>
+							<range>-0.113 0.113</range>
 							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
 							<clamped>true</clamped>
 							<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
@@ -3056,9 +3056,9 @@
 						</Coordinate>
 						<Coordinate name="yaw1">
 							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
-							<default_value>1.27484214121148e-34</default_value>
+							<default_value>-0.032000001207393103</default_value>
 							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
-							<range>-0.66322511575800003 0.66322511575800003</range>
+							<range>-0.67200000000000004 0.67200000000000004</range>
 							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
 							<clamped>true</clamped>
 							<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
@@ -3110,8 +3110,8 @@
 							<axis>0 0 1</axis>
 							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
 							<SimmSpline name="function">
-								<x> -1.74533 1.74533</x>
-								<y> -0.774926 0.774926</y>
+								<x> -1.745330000000000048 1.745330000000000048</x>
+								<y> -0.77492600000000000371 0.77492600000000000371</y>
 							</SimmSpline>
 						</TransformAxis>
 						<TransformAxis name="rotation2">
@@ -3121,8 +3121,8 @@
 							<axis>1 0 0</axis>
 							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
 							<SimmSpline name="function">
-								<x> -1.74533 1.74533</x>
-								<y> -0.872665 0.872665</y>
+								<x> -1.745330000000000048 1.745330000000000048</x>
+								<y> -0.87266500000000002402 0.87266500000000002402</y>
 							</SimmSpline>
 						</TransformAxis>
 						<TransformAxis name="rotation3">
@@ -3132,8 +3132,8 @@
 							<axis>0 1 0</axis>
 							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
 							<SimmSpline name="function">
-								<x> -1.74533 1.74533</x>
-								<y> -1.5516 1.5516</y>
+								<x> -1.745330000000000048 1.745330000000000048</x>
+								<y> -1.5516000000000000902 1.5516000000000000902</y>
 							</SimmSpline>
 						</TransformAxis>
 						<!--3 Axes for translations are listed next.-->
@@ -3187,7 +3187,7 @@
 					<coordinates>
 						<Coordinate name="aux1jnt_r3">
 							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
-							<default_value>8.75233291594014e-07</default_value>
+							<default_value>0.0050039978628797733</default_value>
 							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
 							<range>-99999.899999999994 99999.899999999994</range>
 							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
@@ -3199,7 +3199,7 @@
 						</Coordinate>
 						<Coordinate name="aux1jnt_r1">
 							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
-							<default_value>0</default_value>
+							<default_value>-1.2883247670801095e-11</default_value>
 							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
 							<range>-99999.899999999994 99999.899999999994</range>
 							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
@@ -3211,7 +3211,7 @@
 						</Coordinate>
 						<Coordinate name="aux1jnt_r2">
 							<!--The value of this coordinate before any value has been set. Rotational coordinate value is in radians and Translational in meters.-->
-							<default_value>0</default_value>
+							<default_value>-0.0035520069178382714</default_value>
 							<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
 							<range>-99999.899999999994 99999.899999999994</range>
 							<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
@@ -3368,7 +3368,7 @@
 							<orientation>0 0 0</orientation>
 						</PhysicalOffsetFrame>
 					</frames>
-				</WeldJoint>				
+				</WeldJoint>
 			</objects>
 		</JointSet>
 		<!--Controllers that provide the control inputs for Actuators.-->
@@ -3577,8 +3577,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.74533 1.74533</x>
-							<y> -0.23911 0.23911</y>
+							<x> -1.745330000000000048 1.745330000000000048</x>
+							<y> -0.23910999999999998922 0.23910999999999998922</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3592,8 +3592,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.74533 1.74533</x>
-							<y> -0.328122 0.328122</y>
+							<x> -1.745330000000000048 1.745330000000000048</x>
+							<y> -0.32812200000000002476 0.32812200000000002476</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3607,8 +3607,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.74533 1.74533</x>
-							<y> -0.326377 0.326377</y>
+							<x> -1.745330000000000048 1.745330000000000048</x>
+							<y> -0.32637699999999997269 0.32637699999999997269</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3622,8 +3622,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.74533 1.74533</x>
-							<y> -0.274017 0.274017</y>
+							<x> -1.745330000000000048 1.745330000000000048</x>
+							<y> -0.27401700000000001056 0.27401700000000001056</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3637,8 +3637,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.74533 1.74533</x>
-							<y> -0.382227 0.382227</y>
+							<x> -1.745330000000000048 1.745330000000000048</x>
+							<y> -0.38222699999999998344 0.38222699999999998344</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3652,8 +3652,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.74533 1.74533</x>
-							<y> -0.383972 0.383972</y>
+							<x> -1.745330000000000048 1.745330000000000048</x>
+							<y> -0.38397199999999997999 0.38397199999999997999</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3667,8 +3667,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.74533 1.74533</x>
-							<y> -0.376991 0.376991</y>
+							<x> -1.745330000000000048 1.745330000000000048</x>
+							<y> -0.37699100000000002053 0.37699100000000002053</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3682,8 +3682,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.74533 1.74533</x>
-							<y> -0.382227 0.382227</y>
+							<x> -1.745330000000000048 1.745330000000000048</x>
+							<y> -0.38222699999999998344 0.38222699999999998344</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3697,8 +3697,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.74533 1.74533</x>
-							<y> -0.383972 0.383972</y>
+							<x> -1.745330000000000048 1.745330000000000048</x>
+							<y> -0.38397199999999997999 0.38397199999999997999</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3712,8 +3712,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.74533 1.74533</x>
-							<y> -0.376991 0.376991</y>
+							<x> -1.745330000000000048 1.745330000000000048</x>
+							<y> -0.37699100000000002053 0.37699100000000002053</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3727,8 +3727,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.74533 1.74533</x>
-							<y> -0.382227 0.382227</y>
+							<x> -1.745330000000000048 1.745330000000000048</x>
+							<y> -0.38222699999999998344 0.38222699999999998344</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3742,8 +3742,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.74533 1.74533</x>
-							<y> -0.287979 0.287979</y>
+							<x> -1.745330000000000048 1.745330000000000048</x>
+							<y> -0.28797899999999998499 0.28797899999999998499</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3757,8 +3757,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.74533 1.74533</x>
-							<y> -0.342085 0.342085</y>
+							<x> -1.745330000000000048 1.745330000000000048</x>
+							<y> -0.34208499999999997243 0.34208499999999997243</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3772,8 +3772,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.74533 1.74533</x>
-							<y> -0.164061 0.164061</y>
+							<x> -1.745330000000000048 1.745330000000000048</x>
+							<y> -0.16406100000000001238 0.16406100000000001238</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3787,8 +3787,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.74533 1.74533</x>
-							<y> -0.191986 0.191986</y>
+							<x> -1.745330000000000048 1.745330000000000048</x>
+							<y> -0.19198599999999999 0.19198599999999999</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3802,8 +3802,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.74533 1.74533</x>
-							<y> -0.872665 0.872665</y>
+							<x> -1.745330000000000048 1.745330000000000048</x>
+							<y> -0.87266500000000002402 0.87266500000000002402</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3817,8 +3817,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.74533 1.74533</x>
-							<y> -0.193732 0.193732</y>
+							<x> -1.745330000000000048 1.745330000000000048</x>
+							<y> -0.19373199999999998755 0.19373199999999998755</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3832,15 +3832,15 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.74533 1.74533</x>
-							<y> -0.970403 0.970403</y>
+							<x> -1.745330000000000048 1.745330000000000048</x>
+							<y> -0.97040300000000001557 0.97040300000000001557</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
 					<independent_coordinate_names>pitch1</independent_coordinate_names>
 					<!--Name of the left-hand side (dependent) coordinate of the constraint coupling function.-->
 					<dependent_coordinate_name>aux1jnt_r3</dependent_coordinate_name>
-				</CoordinateCouplerConstraint>				
+				</CoordinateCouplerConstraint>
 			</objects>
 			<groups />
 		</ConstraintSet>
@@ -3851,7 +3851,128 @@
 		</ForceSet>
 		<!--Markers in the model.-->
 		<MarkerSet name="markerset">
-			<objects />
+			<objects>
+				<Marker name="HY">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
+					<socket_parent_frame>/bodyset/cerv5</socket_parent_frame>
+					<!--The fixed location of the station expressed in its parent frame.-->
+					<location>0.056378900000000003 0.0055529100000000003 0</location>
+					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
+					<fixed>false</fixed>
+				</Marker>
+				<Marker name="RUN">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
+					<socket_parent_frame>/bodyset/cerv2</socket_parent_frame>
+					<!--The fixed location of the station expressed in its parent frame.-->
+					<location>0 0 0.065000000000000002</location>
+					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
+					<fixed>false</fixed>
+				</Marker>
+				<Marker name="LUN">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
+					<socket_parent_frame>/bodyset/cerv2</socket_parent_frame>
+					<!--The fixed location of the station expressed in its parent frame.-->
+					<location>0 0 -0.065000000000000002</location>
+					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
+					<fixed>false</fixed>
+				</Marker>
+				<Marker name="SJN">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
+					<socket_parent_frame>/bodyset/torso</socket_parent_frame>
+					<!--The fixed location of the station expressed in its parent frame.-->
+					<location>0.02 0.37 0</location>
+					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
+					<fixed>false</fixed>
+				</Marker>
+				<Marker name="GLA">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
+					<socket_parent_frame>/bodyset/skull</socket_parent_frame>
+					<!--The fixed location of the station expressed in its parent frame.-->
+					<location>0.10518207371730254 0.064141708488898205 -0.00069083018418427192</location>
+					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
+					<fixed>false</fixed>
+				</Marker>
+				<Marker name="RZF">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
+					<socket_parent_frame>/bodyset/skull</socket_parent_frame>
+					<!--The fixed location of the station expressed in its parent frame.-->
+					<location>0.092455628208360063 0.014563684385810002 0.050256581005569373</location>
+					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
+					<fixed>false</fixed>
+				</Marker>
+				<Marker name="LZF">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
+					<socket_parent_frame>/bodyset/skull</socket_parent_frame>
+					<!--The fixed location of the station expressed in its parent frame.-->
+					<location>0.092509100366042402 0.017581450332054951 -0.045689952876549436</location>
+					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
+					<fixed>false</fixed>
+				</Marker>
+				<Marker name="RZP">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
+					<socket_parent_frame>/bodyset/skull</socket_parent_frame>
+					<!--The fixed location of the station expressed in its parent frame.-->
+					<location>0.02689462760074765 0.021166991609662095 0.079629280214395873</location>
+					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
+					<fixed>false</fixed>
+				</Marker>
+				<Marker name="LZP">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
+					<socket_parent_frame>/bodyset/skull</socket_parent_frame>
+					<!--The fixed location of the station expressed in its parent frame.-->
+					<location>0.026118448469534317 0.021608877204105648 -0.081313705384501458</location>
+					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
+					<fixed>false</fixed>
+				</Marker>
+				<Marker name="RCAJ">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
+					<socket_parent_frame>/bodyset/rscapula</socket_parent_frame>
+					<!--The fixed location of the station expressed in its parent frame.-->
+					<location>0.0158943 -0.00338252 -0.00408092</location>
+					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
+					<fixed>false</fixed>
+				</Marker>
+				<Marker name="LCAJ">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
+					<socket_parent_frame>/bodyset/lscapula</socket_parent_frame>
+					<!--The fixed location of the station expressed in its parent frame.-->
+					<location>0.0158943 -0.00574546 0.0087077999999999999</location>
+					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
+					<fixed>false</fixed>
+				</Marker>
+				<Marker name="RC">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
+					<socket_parent_frame>/bodyset/rclavicle</socket_parent_frame>
+					<!--The fixed location of the station expressed in its parent frame.-->
+					<location>0.0103243 0.013344699999999999 0.0457172</location>
+					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
+					<fixed>false</fixed>
+				</Marker>
+				<Marker name="LC">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
+					<socket_parent_frame>/bodyset/lclavicle</socket_parent_frame>
+					<!--The fixed location of the station expressed in its parent frame.-->
+					<location>0.0103243 0.013344699999999999 -0.0457172</location>
+					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
+					<fixed>false</fixed>
+				</Marker>
+				<Marker name="RN">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
+					<socket_parent_frame>/bodyset/cerv5</socket_parent_frame>
+					<!--The fixed location of the station expressed in its parent frame.-->
+					<location>-0.00087553900000000005 -0.0084849899999999995 0.067396300000000006</location>
+					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
+					<fixed>false</fixed>
+				</Marker>
+				<Marker name="LN">
+					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
+					<socket_parent_frame>/bodyset/cerv5</socket_parent_frame>
+					<!--The fixed location of the station expressed in its parent frame.-->
+					<location>0.0028302100000000001 -0.00202623 -0.063479300000000002</location>
+					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
+					<fixed>false</fixed>
+				</Marker>
+			</objects>
 			<groups />
 		</MarkerSet>
 		<!--Geometry to be used in contact forces.-->

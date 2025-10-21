@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <OpenSimDocument Version="40600">
-	<Model name="Lumbar_C_210">
+	<Model name="passengerModel">
 		<!--The model's ground reference frame.-->
 		<Ground name="ground">
 			<!--The geometry used to display the axes of this Frame.-->
@@ -1283,7 +1283,7 @@
 							<axis>1 0 0</axis>
 							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
 							<LinearFunction name="function">
-								<coefficients> 0.13559999999999999831 0</coefficients>
+								<coefficients> 0.1356 0</coefficients>
 							</LinearFunction>
 						</TransformAxis>
 						<TransformAxis name="rotation3">
@@ -1293,7 +1293,7 @@
 							<axis>0 1 0</axis>
 							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
 							<LinearFunction name="function">
-								<coefficients> 0.20779220779220800019 0</coefficients>
+								<coefficients> 0.207792 0</coefficients>
 							</LinearFunction>
 						</TransformAxis>
 						<!--3 Axes for translations are listed next.-->
@@ -2195,8 +2195,8 @@
 							<axis>0 0 1</axis>
 							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
 							<SimmSpline name="function">
-								<x> -1.745330000000000048 1.745330000000000048</x>
-								<y> -0.17278799999999999715 0.17278799999999999715</y>
+								<x> -1.74533 1.74533</x>
+								<y> -0.172788 0.172788</y>
 							</SimmSpline>
 						</TransformAxis>
 						<TransformAxis name="rotation2">
@@ -2206,8 +2206,8 @@
 							<axis>1 0 0</axis>
 							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
 							<SimmSpline name="function">
-								<x> -1.745330000000000048 1.745330000000000048</x>
-								<y> -0.136136000000000007 0.136136000000000007</y>
+								<x> -1.74533 1.74533</x>
+								<y> -0.136136 0.136136</y>
 							</SimmSpline>
 						</TransformAxis>
 						<TransformAxis name="rotation3">
@@ -2217,8 +2217,8 @@
 							<axis>0 1 0</axis>
 							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
 							<SimmSpline name="function">
-								<x> -1.745330000000000048 1.745330000000000048</x>
-								<y> -0.10995599999999999818 0.10995599999999999818</y>
+								<x> -1.74533 1.74533</x>
+								<y> -0.109956 0.109956</y>
 							</SimmSpline>
 						</TransformAxis>
 						<!--3 Axes for translations are listed next.-->
@@ -3110,8 +3110,8 @@
 							<axis>0 0 1</axis>
 							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
 							<SimmSpline name="function">
-								<x> -1.745330000000000048 1.745330000000000048</x>
-								<y> -0.77492600000000000371 0.77492600000000000371</y>
+								<x> -1.74533 1.74533</x>
+								<y> -0.774926 0.774926</y>
 							</SimmSpline>
 						</TransformAxis>
 						<TransformAxis name="rotation2">
@@ -3121,8 +3121,8 @@
 							<axis>1 0 0</axis>
 							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
 							<SimmSpline name="function">
-								<x> -1.745330000000000048 1.745330000000000048</x>
-								<y> -0.87266500000000002402 0.87266500000000002402</y>
+								<x> -1.74533 1.74533</x>
+								<y> -0.872665 0.872665</y>
 							</SimmSpline>
 						</TransformAxis>
 						<TransformAxis name="rotation3">
@@ -3132,8 +3132,8 @@
 							<axis>0 1 0</axis>
 							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
 							<SimmSpline name="function">
-								<x> -1.745330000000000048 1.745330000000000048</x>
-								<y> -1.5516000000000000902 1.5516000000000000902</y>
+								<x> -1.74533 1.74533</x>
+								<y> -1.5516 1.5516</y>
 							</SimmSpline>
 						</TransformAxis>
 						<!--3 Axes for translations are listed next.-->
@@ -3385,7 +3385,7 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<LinearFunction>
-							<coefficients> 0.18499999999999999778 0</coefficients>
+							<coefficients> 0.185 0</coefficients>
 						</LinearFunction>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3401,7 +3401,7 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<LinearFunction>
-							<coefficients> 0.22077922077922099153 0</coefficients>
+							<coefficients> 0.220779 0</coefficients>
 						</LinearFunction>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3417,7 +3417,7 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<LinearFunction>
-							<coefficients> 0.18108617299999998917 0</coefficients>
+							<coefficients> 0.181086 0</coefficients>
 						</LinearFunction>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3433,7 +3433,7 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<LinearFunction>
-							<coefficients> 0.2039999999999999869 0</coefficients>
+							<coefficients> 0.204 0</coefficients>
 						</LinearFunction>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3449,7 +3449,7 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<LinearFunction>
-							<coefficients> 0.22077922077922099153 0</coefficients>
+							<coefficients> 0.220779 0</coefficients>
 						</LinearFunction>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3465,7 +3465,7 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<LinearFunction>
-							<coefficients> 0.24533196500000001294 0</coefficients>
+							<coefficients> 0.245332 0</coefficients>
 						</LinearFunction>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3481,7 +3481,7 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<LinearFunction>
-							<coefficients> 0.23100000000000001088 0</coefficients>
+							<coefficients> 0.231 0</coefficients>
 						</LinearFunction>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3497,7 +3497,7 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<LinearFunction>
-							<coefficients> 0.18181818181818198976 0</coefficients>
+							<coefficients> 0.181818 0</coefficients>
 						</LinearFunction>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3513,7 +3513,7 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<LinearFunction>
-							<coefficients> 0.25012849100000000835 0</coefficients>
+							<coefficients> 0.250128 0</coefficients>
 						</LinearFunction>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3529,7 +3529,7 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<LinearFunction>
-							<coefficients> 0.25500000000000000444 0</coefficients>
+							<coefficients> 0.255 0</coefficients>
 						</LinearFunction>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3545,7 +3545,7 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<LinearFunction>
-							<coefficients> 0.16883116883116899842 0</coefficients>
+							<coefficients> 0.168831 0</coefficients>
 						</LinearFunction>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3561,7 +3561,7 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<LinearFunction>
-							<coefficients> 0.18800000000000000044 0</coefficients>
+							<coefficients> 0.188 0</coefficients>
 						</LinearFunction>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3577,8 +3577,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.745330000000000048 1.745330000000000048</x>
-							<y> -0.23910999999999998922 0.23910999999999998922</y>
+							<x> -1.74533 1.74533</x>
+							<y> -0.23911 0.23911</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3592,8 +3592,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.745330000000000048 1.745330000000000048</x>
-							<y> -0.32812200000000002476 0.32812200000000002476</y>
+							<x> -1.74533 1.74533</x>
+							<y> -0.328122 0.328122</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3607,8 +3607,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.745330000000000048 1.745330000000000048</x>
-							<y> -0.32637699999999997269 0.32637699999999997269</y>
+							<x> -1.74533 1.74533</x>
+							<y> -0.326377 0.326377</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3622,8 +3622,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.745330000000000048 1.745330000000000048</x>
-							<y> -0.27401700000000001056 0.27401700000000001056</y>
+							<x> -1.74533 1.74533</x>
+							<y> -0.274017 0.274017</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3637,8 +3637,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.745330000000000048 1.745330000000000048</x>
-							<y> -0.38222699999999998344 0.38222699999999998344</y>
+							<x> -1.74533 1.74533</x>
+							<y> -0.382227 0.382227</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3652,8 +3652,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.745330000000000048 1.745330000000000048</x>
-							<y> -0.38397199999999997999 0.38397199999999997999</y>
+							<x> -1.74533 1.74533</x>
+							<y> -0.383972 0.383972</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3667,8 +3667,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.745330000000000048 1.745330000000000048</x>
-							<y> -0.37699100000000002053 0.37699100000000002053</y>
+							<x> -1.74533 1.74533</x>
+							<y> -0.376991 0.376991</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3682,8 +3682,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.745330000000000048 1.745330000000000048</x>
-							<y> -0.38222699999999998344 0.38222699999999998344</y>
+							<x> -1.74533 1.74533</x>
+							<y> -0.382227 0.382227</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3697,8 +3697,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.745330000000000048 1.745330000000000048</x>
-							<y> -0.38397199999999997999 0.38397199999999997999</y>
+							<x> -1.74533 1.74533</x>
+							<y> -0.383972 0.383972</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3712,8 +3712,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.745330000000000048 1.745330000000000048</x>
-							<y> -0.37699100000000002053 0.37699100000000002053</y>
+							<x> -1.74533 1.74533</x>
+							<y> -0.376991 0.376991</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3727,8 +3727,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.745330000000000048 1.745330000000000048</x>
-							<y> -0.38222699999999998344 0.38222699999999998344</y>
+							<x> -1.74533 1.74533</x>
+							<y> -0.382227 0.382227</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3742,8 +3742,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.745330000000000048 1.745330000000000048</x>
-							<y> -0.28797899999999998499 0.28797899999999998499</y>
+							<x> -1.74533 1.74533</x>
+							<y> -0.287979 0.287979</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3757,8 +3757,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.745330000000000048 1.745330000000000048</x>
-							<y> -0.34208499999999997243 0.34208499999999997243</y>
+							<x> -1.74533 1.74533</x>
+							<y> -0.342085 0.342085</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3772,8 +3772,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.745330000000000048 1.745330000000000048</x>
-							<y> -0.16406100000000001238 0.16406100000000001238</y>
+							<x> -1.74533 1.74533</x>
+							<y> -0.164061 0.164061</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3787,8 +3787,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.745330000000000048 1.745330000000000048</x>
-							<y> -0.19198599999999999 0.19198599999999999</y>
+							<x> -1.74533 1.74533</x>
+							<y> -0.191986 0.191986</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3802,8 +3802,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.745330000000000048 1.745330000000000048</x>
-							<y> -0.87266500000000002402 0.87266500000000002402</y>
+							<x> -1.74533 1.74533</x>
+							<y> -0.872665 0.872665</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3817,8 +3817,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.745330000000000048 1.745330000000000048</x>
-							<y> -0.19373199999999998755 0.19373199999999998755</y>
+							<x> -1.74533 1.74533</x>
+							<y> -0.193732 0.193732</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->
@@ -3832,8 +3832,8 @@
 					<!--Constraint function of generalized coordinates (to be specified) used to evaluate the constraint errors and their derivatives, and must valid to at least 2nd order. Constraint function must evaluate to zero when coordinates satisfy the constraint.-->
 					<coupled_coordinates_function>
 						<SimmSpline>
-							<x> -1.745330000000000048 1.745330000000000048</x>
-							<y> -0.97040300000000001557 0.97040300000000001557</y>
+							<x> -1.74533 1.74533</x>
+							<y> -0.970403 0.970403</y>
 						</SimmSpline>
 					</coupled_coordinates_function>
 					<!--List of names of the right hand side (independent) coordinates. Note the constraint function above, must be able to handle multiple coordinate values if more than one coordinate name is provided.-->

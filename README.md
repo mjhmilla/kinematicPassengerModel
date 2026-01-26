@@ -5,8 +5,11 @@ This repository contains the working OpenSim model files (https://simtk.org/proj
 # Model Description
 
  - *passengerModel.osim*\
-        Work in progress of the passenger model. 
-
+        Kinematic model of the passenger. This model is designed specifically to track motion capture data recorded in a car, where it is not possible to put many markers on the torso (due to the seat belt). As a result, we have added the pelvis and a flexible torso so that we can estimate the location of the torso using markers on the shoulders and clavicle. In this setting, the pelvis is constrained to remain in contact with the seat and the model is tilted backwards to be consistent with the angle of the back rest which we manually measure.
+        
+ - *passengerModelMuscles.osim*\
+        This model includes the neck muscles that appear in the Mortensen 2018 model. Note that we had to update the local offset vectors so that the muscles that attached to the torso attached at the correct location. This update was needed because the original Mortensen et al. 2018 model uses a rigid torso while this model includes Christophy et al.'s flexible lumbar spine. The edited points of attachment have been visually compared to models/Mortensen2018_rigidTorso.osim.
+        
  - *reference/Christophy2012_axialRotationUpd_skeletonOnly.osim*\
         This is the model of Christophy 2012 et al. but only with the skeleton, joints, and coupling constraints. The coefficients of the axial coupling constraints have been updated from the original publication so that an axial_rotation of 45 degrees results in an axial rotation of the torso with respect to the pelvis of 45 degrees. This is described in detail on the SimTK forum for this model. Go to https://simtk.org and search for 'Musculoskeletal Model of the Lumbar Spine', go the forum of this model, then look at the post titled 'Axial rotation coordinate coupling coefficients update'. Or just use this link [Axial rotation coordinate ...](https://simtk.org/plugins/phpBB/viewtopicPhpbb.php?f=567&t=18771&p=0&start=0&view=&sid=ee1fa9fe49baefde716abe720cefe1a4) 
 

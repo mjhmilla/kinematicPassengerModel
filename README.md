@@ -17,9 +17,64 @@ This repository contains the working OpenSim model files (https://simtk.org/proj
         This is the model of Mortensen et al. with the addition of a rigid torso-pelvis, a seat-pelvis joint, and a custom marker set.
 
 
+# Model Creation Process
+
+
+The models passengerModel.osim and passengerModelMuscles.osim have been made by merging the torso of Christophy et al. with the head-neck model of Mortensen et al. These models are of different people: Christophy et al. made a model of a 1700 mm tall male, while Mortensen et al. made a model of a 1803.4 mm (5'11") tall male.
+Prior to merging the different parts of the body had to be scaled so that each part was consistent with the 1700 mm tall male model of Christophy et al.
+
+
+ - *Pelvis*, *sacrum*, *L5-L1*, and *torso* scaling
+       We kept the original scale factors (0.87) that Christophy et al. used to scale the geometry of their model to be consistent with a 1700 mm tall male. This scale factor can be seen in models/scaling/Christophy2012_axialRotationUpd_skeletonOnly.osim by in the scale_factors field of all bodies except the pelvis. In the passengerModels we ahve also applied a scale factor of 0.87 to the pelvis, and have updated the sacrum_offset so that the iliac crests align correctly with the sacrum.
+
+ - *C1-C7*, *skull*, *jaw*, *scapula*, *clavicle*
+       We have scaled C1-C7 geometry, C1-C7 joint offsets, the skull, and jaw using a ratio of the heights of the Christophy et al. model and the Mortensen et al. model : 1700/1803.4 = 0.9426638571587
+
+After merging, we corrected an error in the coupler constraint weights applied to the axial rotation of Christophy et al.'s lumbar joint which is described in detail in the next section. An image of the passengerModel, Christophy et al. model, and Mortensen et al. models side-by-side can be found in the models/media:
+
+ - passengerModel_Christophy_Mortensen.png [image]
+ - passengerModel_Christophy_Mortensen.blend [blender file]
+ - passengerModel.dae, Christophy.dae, Mortensen.dae [geometry exported from OpenSim Creator]
+
+
+# Christophy et al. 2012 axial rotation coordinate coupler constraint corrrection
+
+The axial rotation of the rib cage with respect to the pelvis does not follow the generalized coordinate axial_rotation. In contrast, flexion/extension have been implemented so that when flex_extension is set to 45, the rib cage rotates with respect to the pelvis by 45 degrees. The same for lateral bending. As such, it is likely that Christophy et al. had the design intent of also having the axial rotation of the rib cage with respect to the pelvis be equal to the generalized coordinate axial_rotation. Please note that this error does not mean that the model is broken, but it does mean that the numerical value of the axial rotation coordinate does not correspond to the rotation between the pelvis and rib cage which is confusing. 
+
+To elaborate, Christophy entered these coefficients in Lumbar_C_210.osim
+
+  - L1/L2: 0.02888888890000000000 (line 15915)
+  - L2/L3: 0.03111111111100000100 (line 15882)
+  - L3/L4: 0.03777777799999999800 (line 15849)
+  - L4/L5: 0.03777777699999999800 (line 15816)
+  - L5/S1: 0.030329999999999999   (line 14674)
+  - Sum  : 0.1711
+
+Since the sum of these coefficients is only 0.1711, if you apply an axial_rotation of say pi/4 radians (45 degrees) you see that the torso rotates by only 0.0428 pi radians (7.7 degrees). If we look at the orginal research, Fugii et al. reports that during their MRI study each lumbar joint twisted by
+
+  - L1/L2: 1.3 degrees
+  - L2/L3: 1.4
+  - L3/L4: 1.7
+  - L4/L5: 1.7
+  - L5/S1: 1.6 
+
+when there was a 45 degree rotation between the trunk and the pelvis. If you scale these coordinates by 45 degrees you get the coefficients used by Christophy et al. However, we are only concerned with what the lumbar spine is doing, and so it does not matter that the trunk rotated by 45 degrees: the additional axial rotation is taking place at other joints (the thorasic spine and scapulothorasic joints) that have nothing to do with the lumbar spine. Instead, we normalize these coefficients so that the final result sums to 1 which yields
+
+  - L1/L2: 0.168831168831169
+  - L2/L3: 0.181818181818182
+  - L3/L4: 0.220779220779221
+  - L4/L5: 0.220779220779221
+  - L5/S1: 0.207792207792208
+  - Sum  : 1
+
+With these coefficients when the axial_rotation is set to 45 degrees, for example, the sum total of the axial rotation applied to the lumbar spine is 45 degrees. The passengerModel.osim and passengerModelMuscles.osim use the proposed coefficients for the axial coordinate coupler constraint.
+
 # References
 
+
  - Christophy M, Faruk Senan NA, Lotz JC, O’Reilly OM. A musculoskeletal model for the lumbar spine. Biomechanics and modeling in mechanobiology. 2012 Jan;11:19-34.
+
+ - Fujii R, Sakaura H, Mukai Y, Hosono N, Ishii T, Iwasaki M, Yoshikawa H, Sugamoto K (2007) Kinematics of the lumbar spine in trunk rotation: In vivo three-dimensional analysis using magnetic resonance imaging. Eur Spine J 16(11):1867–1874
 
  - Mortensen JD, Vasavada AN, Merryweather AS. The inclusion of hyoid muscles improve moment generating capacity and dynamic simulations in musculoskeletal models of the head and neck. PloS one. 2018 Jun 28;13(6):e0199912.
 

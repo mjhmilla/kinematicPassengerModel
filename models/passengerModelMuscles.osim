@@ -499,7 +499,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							              <!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.89121499341029486 0.89121499341029486 0.89121499341029486</scale_factors>
+							<scale_factors>0.9426638571587 0.9426638571587 0.9426638571587</scale_factors>
 							              <!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--Flag indicating whether the associated Geometry is visible or hidden.-->
@@ -539,7 +539,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							              <!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.89121499341029486 0.89121499341029486 0.89121499341029486</scale_factors>
+							<scale_factors>0.9426638571587 0.9426638571587 0.9426638571587</scale_factors>
 							              <!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--Flag indicating whether the associated Geometry is visible or hidden.-->
@@ -579,7 +579,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							              <!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.89121499341029486 0.89121499341029486 0.89121499341029486</scale_factors>
+							<scale_factors>0.9426638571587 0.9426638571587 0.9426638571587</scale_factors>
 							              <!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--Flag indicating whether the associated Geometry is visible or hidden.-->
@@ -619,7 +619,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							              <!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.89121499341029486 0.89121499341029486 0.89121499341029486</scale_factors>
+							<scale_factors>0.9426638571587 0.9426638571587 0.9426638571587</scale_factors>
 							              <!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--Flag indicating whether the associated Geometry is visible or hidden.-->
@@ -659,7 +659,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							              <!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.89121499341029486 0.89121499341029486 0.89121499341029486</scale_factors>
+							<scale_factors>0.9426638571587 0.9426638571587 0.9426638571587</scale_factors>
 							              <!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--Flag indicating whether the associated Geometry is visible or hidden.-->
@@ -699,7 +699,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							              <!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.89121499341029486 0.89121499341029486 0.89121499341029486</scale_factors>
+							<scale_factors>0.9426638571587 0.9426638571587 0.9426638571587</scale_factors>
 							              <!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--Flag indicating whether the associated Geometry is visible or hidden.-->
@@ -739,7 +739,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							              <!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.89121499341029486 0.89121499341029486 0.89121499341029486</scale_factors>
+							<scale_factors>0.9426638571587 0.9426638571587 0.9426638571587</scale_factors>
 							              <!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--Flag indicating whether the associated Geometry is visible or hidden.-->
@@ -779,7 +779,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							              <!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.89121499341029486 0.89121499341029486 0.89121499341029486</scale_factors>
+							<scale_factors>0.9426638571587 0.9426638571587 0.9426638571587</scale_factors>
 							              <!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--Flag indicating whether the associated Geometry is visible or hidden.-->
@@ -819,7 +819,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							              <!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.89121499341029486 0.89121499341029486 0.89121499341029486</scale_factors>
+							<scale_factors>0.9426638571587 0.9426638571587 0.9426638571587</scale_factors>
 							              <!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--Flag indicating whether the associated Geometry is visible or hidden.-->
@@ -859,7 +859,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							              <!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.89121499341029486 0.89121499341029486 0.89121499341029486</scale_factors>
+							<scale_factors>0.9426638571587 0.9426638571587 0.9426638571587</scale_factors>
 							              <!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--Flag indicating whether the associated Geometry is visible or hidden.-->
@@ -899,7 +899,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							              <!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.89121499341029486 0.89121499341029486 0.89121499341029486</scale_factors>
+							<scale_factors>0.9426638571587 0.9426638571587 0.9426638571587</scale_factors>
 							              <!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--Flag indicating whether the associated Geometry is visible or hidden.-->
@@ -939,7 +939,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							              <!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.94674857096496168 0.94674857096496168 0.94674857096496168</scale_factors>
+							<scale_factors>0.9426638571587 0.9426638571587 0.9426638571587</scale_factors>
 							              <!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--Flag indicating whether the associated Geometry is visible or hidden.-->
@@ -979,7 +979,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							              <!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.94674857096496168 0.94674857096496168 0.94674857096496168</scale_factors>
+							<scale_factors>0.9426638571587 0.9426638571587 0.9426638571587</scale_factors>
 							              <!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--Flag indicating whether the associated Geometry is visible or hidden.-->
@@ -1174,7 +1174,7 @@
 							              <!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>/bodyset/sacrum</socket_parent>
 							              <!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>0 0 0</translation>
+							<translation>0.01 0.04 0</translation>
 							              <!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>0 0 0</orientation>
 						            </PhysicalOffsetFrame>
@@ -2232,7 +2232,7 @@
 										                    <value>0</value>
 									                  </Constant>
 								                </function>
-								                <scale>0.89121499341029486</scale>
+								                <scale>0.9426638571587</scale>
 							              </MultiplierFunction>
 						            </TransformAxis>
 						            <TransformAxis name="translation2">
@@ -2245,7 +2245,7 @@
 										                    <value>0</value>
 									                  </Constant>
 								                </function>
-								                <scale>0.89121499341029486</scale>
+								                <scale>0.9426638571587</scale>
 							              </MultiplierFunction>
 						            </TransformAxis>
 						            <TransformAxis name="translation3">
@@ -2258,7 +2258,7 @@
 										                    <value>0</value>
 									                  </Constant>
 								                </function>
-								                <scale>0.89121499341029486</scale>
+								                <scale>0.9426638571587</scale>
 							              </MultiplierFunction>
 						            </TransformAxis>
 					          </SpatialTransform>
@@ -2384,7 +2384,7 @@
 										                    <value>0</value>
 									                  </Constant>
 								                </function>
-								                <scale>0.89121499341029486</scale>
+								                <scale>0.9426638571587</scale>
 							              </MultiplierFunction>
 						            </TransformAxis>
 						            <TransformAxis name="translation2">
@@ -2397,7 +2397,7 @@
 										                    <value>0</value>
 									                  </Constant>
 								                </function>
-								                <scale>0.89121499341029486</scale>
+								                <scale>0.9426638571587</scale>
 							              </MultiplierFunction>
 						            </TransformAxis>
 						            <TransformAxis name="translation3">
@@ -2410,7 +2410,7 @@
 										                    <value>0</value>
 									                  </Constant>
 								                </function>
-								                <scale>0.89121499341029486</scale>
+								                <scale>0.9426638571587</scale>
 							              </MultiplierFunction>
 						            </TransformAxis>
 					          </SpatialTransform>
@@ -2536,7 +2536,7 @@
 										                    <value>0</value>
 									                  </Constant>
 								                </function>
-								                <scale>0.89121499341029486</scale>
+								                <scale>0.9426638571587</scale>
 							              </MultiplierFunction>
 						            </TransformAxis>
 						            <TransformAxis name="translation2">
@@ -2549,7 +2549,7 @@
 										                    <value>0</value>
 									                  </Constant>
 								                </function>
-								                <scale>0.89121499341029486</scale>
+								                <scale>0.9426638571587</scale>
 							              </MultiplierFunction>
 						            </TransformAxis>
 						            <TransformAxis name="translation3">
@@ -2562,7 +2562,7 @@
 										                    <value>0</value>
 									                  </Constant>
 								                </function>
-								                <scale>0.89121499341029486</scale>
+								                <scale>0.9426638571587</scale>
 							              </MultiplierFunction>
 						            </TransformAxis>
 					          </SpatialTransform>
@@ -2688,7 +2688,7 @@
 										                    <value>0</value>
 									                  </Constant>
 								                </function>
-								                <scale>0.89121499341029486</scale>
+								                <scale>0.9426638571587</scale>
 							              </MultiplierFunction>
 						            </TransformAxis>
 						            <TransformAxis name="translation2">
@@ -2701,7 +2701,7 @@
 										                    <value>0</value>
 									                  </Constant>
 								                </function>
-								                <scale>0.89121499341029486</scale>
+								                <scale>0.9426638571587</scale>
 							              </MultiplierFunction>
 						            </TransformAxis>
 						            <TransformAxis name="translation3">
@@ -2714,7 +2714,7 @@
 										                    <value>0</value>
 									                  </Constant>
 								                </function>
-								                <scale>0.89121499341029486</scale>
+								                <scale>0.9426638571587</scale>
 							              </MultiplierFunction>
 						            </TransformAxis>
 					          </SpatialTransform>
@@ -2840,7 +2840,7 @@
 										                    <value>0</value>
 									                  </Constant>
 								                </function>
-								                <scale>0.89121499341029486</scale>
+								                <scale>0.9426638571587</scale>
 							              </MultiplierFunction>
 						            </TransformAxis>
 						            <TransformAxis name="translation2">
@@ -2853,7 +2853,7 @@
 										                    <value>0</value>
 									                  </Constant>
 								                </function>
-								                <scale>0.89121499341029486</scale>
+								                <scale>0.9426638571587</scale>
 							              </MultiplierFunction>
 						            </TransformAxis>
 						            <TransformAxis name="translation3">
@@ -2866,7 +2866,7 @@
 										                    <value>0</value>
 									                  </Constant>
 								                </function>
-								                <scale>0.89121499341029486</scale>
+								                <scale>0.9426638571587</scale>
 							              </MultiplierFunction>
 						            </TransformAxis>
 					          </SpatialTransform>
@@ -2992,7 +2992,7 @@
 										                    <value>0</value>
 									                  </Constant>
 								                </function>
-								                <scale>0.89121499341029486</scale>
+								                <scale>0.9426638571587</scale>
 							              </MultiplierFunction>
 						            </TransformAxis>
 						            <TransformAxis name="translation2">
@@ -3005,7 +3005,7 @@
 										                    <value>0</value>
 									                  </Constant>
 								                </function>
-								                <scale>0.89121499341029486</scale>
+								                <scale>0.9426638571587</scale>
 							              </MultiplierFunction>
 						            </TransformAxis>
 						            <TransformAxis name="translation3">
@@ -3018,7 +3018,7 @@
 										                    <value>0</value>
 									                  </Constant>
 								                </function>
-								                <scale>0.89121499341029486</scale>
+								                <scale>0.9426638571587</scale>
 							              </MultiplierFunction>
 						            </TransformAxis>
 					          </SpatialTransform>
@@ -3147,7 +3147,7 @@
 										                    <value>0</value>
 									                  </Constant>
 								                </function>
-								                <scale>0.89121499341029486</scale>
+								                <scale>0.9426638571587</scale>
 							              </MultiplierFunction>
 						            </TransformAxis>
 						            <TransformAxis name="translation2">
@@ -3160,7 +3160,7 @@
 										                    <value>0</value>
 									                  </Constant>
 								                </function>
-								                <scale>0.89121499341029486</scale>
+								                <scale>0.9426638571587</scale>
 							              </MultiplierFunction>
 						            </TransformAxis>
 						            <TransformAxis name="translation3">
@@ -3173,7 +3173,7 @@
 										                    <value>0</value>
 									                  </Constant>
 								                </function>
-								                <scale>0.89121499341029486</scale>
+								                <scale>0.9426638571587</scale>
 							              </MultiplierFunction>
 						            </TransformAxis>
 					          </SpatialTransform>
@@ -3299,7 +3299,7 @@
 										                    <value>0</value>
 									                  </Constant>
 								                </function>
-								                <scale>0.89121499341029486</scale>
+								                <scale>0.9426638571587</scale>
 							              </MultiplierFunction>
 						            </TransformAxis>
 						            <TransformAxis name="translation2">
@@ -3312,7 +3312,7 @@
 										                    <value>0</value>
 									                  </Constant>
 								                </function>
-								                <scale>0.89121499341029486</scale>
+								                <scale>0.9426638571587</scale>
 							              </MultiplierFunction>
 						            </TransformAxis>
 						            <TransformAxis name="translation3">
@@ -3325,7 +3325,7 @@
 										                    <value>0</value>
 									                  </Constant>
 								                </function>
-								                <scale>0.89121499341029486</scale>
+								                <scale>0.9426638571587</scale>
 							              </MultiplierFunction>
 						            </TransformAxis>
 					          </SpatialTransform>
@@ -10696,20 +10696,20 @@
 					          <!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				        </Marker>
-				        <Marker name="RCAJ">
+				<Marker name="RCAJ">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/rscapula</socket_parent_frame>
-					          <!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.0158943 -0.00338252 -0.00408092</location>
-					          <!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
+					<!--The fixed location of the station expressed in its parent frame.-->
+					<location>0.0158943 -0.005 -0.004</location>
+					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
-				        </Marker>
-				        <Marker name="LCAJ">
+				</Marker>
+				<Marker name="LCAJ">
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 					<socket_parent_frame>/bodyset/lscapula</socket_parent_frame>
-					          <!--The fixed location of the station expressed in its parent frame.-->
-					<location>0.0158943 -0.00574546 0.0087077999999999999</location>
-					          <!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
+					<!--The fixed location of the station expressed in its parent frame.-->
+					<location>0.0158943 -0.005 -0.004</location>
+					<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 					<fixed>false</fixed>
 				        </Marker>
 				        <Marker name="RC">

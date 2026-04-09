@@ -4,6 +4,11 @@
 
 This repository contains the working OpenSim (https://simtk.org/projects/opensim) model files for a kinematic model of a human torso, neck, and head that is suitable for tracking optical tracking passenger data that involves torso movements of around 10-30 cm. The pelvis is attached to the ground through a free joint, the lumbar spine comes from Christophy et al. (with a small change), and the neck model comes from Mortensen et al. The marker set has been custom designed to suit an experiment in a mechanical car simulator. To explore the models it is best to load them in OpenSim Creator (https://www.opensimcreator.com/)
 
+# Caution
+
+ - 2026/04/09
+       The attachment points for longissi_cerv_c4thx_L are 3-4 mm too low on the passengerModel: it passes through the transverse process of T8. This happened because the Christophy et al. and Mortensen et al. models have different locations for the torso frame relative to the ribcage, because the Christophy et al. model has a lumbar spine, and the Mortensen et al. model has one large lumped torso segment. To attach the muscles to the same location on the torso, we had to calculate the offset between the torso frames of both models and add this to the attachement point locations of the muscles that attach to the torso. To do this, the passengerModel should first be scaled to have the same height as the Mortensen model, then the offset can be calculated and applied to the few muscles that attach to the torso. Instead, we did not scale the passengerModel before applying the offset, and so, an offset appropriate for the 1803.4 mm tall Mortensen et al. model was applied to the 1700 mm tall passenger model. This offset is a bit too big.
+
 # Model Description
 
  - *models/passengerModel.osim*\

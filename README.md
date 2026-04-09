@@ -1,3 +1,5 @@
+![passengerModelMuscles](passengerModelMuscles.png)
+
 # Description
 
 This repository contains the working OpenSim model files (https://simtk.org/projects/opensim) for a kinematic model of a human torso, neck, and head that is suitable for tracking optical tracking passenger data that involves torso movements of around 10-30 cm. The pelvis is attached to the ground through a free joint, the lumbar spine comes from Christophy et al. (with a small change), and the neck model comes from Mortensen et al. The marker set has been custom designed to suit an experiment in a mechanical car simulator. To explore the models it is best to load them in OpenSim Creator (https://www.opensimcreator.com/)

@@ -9,6 +9,23 @@ This repository contains the working OpenSim (https://simtk.org/projects/opensim
  - 2026/04/09
        The attachment points for longissi_cerv_c4thx_L are 3-4 mm too low on the passengerModel: it passes through the transverse process of T8. This happened because the Christophy et al. and Mortensen et al. models have different locations for the torso frame relative to the ribcage, because the Christophy et al. model has a lumbar spine, and the Mortensen et al. model has one large lumped torso segment. To attach the muscles to the same location on the torso, we had to calculate the offset between the torso frames of both models and add this to the attachement point locations of the muscles that attach to the torso. To do this, the passengerModel should first be scaled to have the same height as the Mortensen model, then the offset can be calculated and applied to the few muscles that attach to the torso. Instead, we did not scale the passengerModel before applying the offset, and so, an offset appropriate for the 1803.4 mm tall Mortensen et al. model was applied to the 1700 mm tall passenger model. This offset is a bit too big.
 
+ - 2026/04/10
+
+       When I manually merged the Christophy et al. model (1700 mm tall) with the Mortensen et al. model (1803.4 mm tall) I changed the scale factors of the meshes, and the scale applied to the translation parts of the custom joints. I failed to update the PhysicalOffsetFrame's translation field, the optimal fiber length and tendon slack length. This means the following:
+
+       - The passengerModel's neck joint centers, optimal fiber lengths, and tendon slack lengths come from Mortensen et al. and were not scaled. That means these measures are sized for someone 1803.4 mm tall, but attached to the 1700 mm tall passenger model. Not good. The errors will be on the order of  6% (1803.4/1700-1).
+
+       - The passengerModel's torso mass comes from Christophy et al. They don't mention the mass explicitly, but say that they started with the Arnold 2010. The Arnold 2010 paper mentions they got the height from Gordon et al. Gordon et al. on page 193 has a list of height (stature) for the people that they looked at. A 1700 mm height would be just below a 25th percentile male. On page 225 the masses of the participants is listed: the 25th percentile male is 75.60 kg (166.67 lbs). The mass of the Mortensen et al. model is 79.54 kg (175 lbs).
+
+       That means that the masses and inertia's of the passengerModel's torso is consistent with someone who's 75.6 kg and 1700 mm tall, while the head and neck have inertias that are consistent with someone who is 79.54 kg and 1803.4mm tall. Not good. The mass errors will be on the order of 5.2% (79.54/75.6-1), while the inertia errors will be on the order of 17.9% ( (1.8*1.8*79.54)/(1.7*1.7*75.6) ).
+       
+       - If I had the time, I would do the following:
+
+              1. Scale the Christophy et al.'s size by 1803.4/1700, and mass by 79.54/75.60 to bring it to a size that is appropriate for the Mortensen et al. model. I'd use the version of the Christophy model that just contains the skeleton: models/reference/Christophy2012_axialRotationUpd_skeletonOnly
+              2. Manually merge the scaled Christophy et al. model with the Mortensen et al. model. This step currently has to be done manually by editing the XML.
+              3. Calculate the difference in the vectors from the torso frame to the T1 frame. This difference, or offset, needs to be applied to all of the points that the neck muscles attach to.
+              4. Pose the Mortensen model and the new passengerModel with the same generalized coordinates. Since both models are the same height now (1803.4 mm), if everything went well, all of the lengths of the muscles should match identically.
+
 # Model Description
 
  - *models/passengerModel.osim*\
@@ -80,10 +97,13 @@ With these coefficients when the axial_rotation is set to 45 degrees, for exampl
 
 # References
 
+ - Arnold EM, Ward SR, Lieber RL, Delp SL. A model of the lower limb for analysis of human movement. Annals of biomedical engineering. 2010 Feb;38(2):269-79.
 
  - Christophy M, Faruk Senan NA, Lotz JC, O’Reilly OM. A musculoskeletal model for the lumbar spine. Biomechanics and modeling in mechanobiology. 2012 Jan;11:19-34.
 
  - Fujii R, Sakaura H, Mukai Y, Hosono N, Ishii T, Iwasaki M, Yoshikawa H, Sugamoto K (2007) Kinematics of the lumbar spine in trunk rotation: In vivo three-dimensional analysis using magnetic resonance imaging. Eur Spine J 16(11):1867–1874
+
+ -Gordon CC, Blackwell CL, Bradtmiller B, Parham JL, Barrientos P, Paquette SP, Corner BD, Carson JM, Venezia JC, Rockwell BM, Mucher M. 2012 anthropometric survey of us army personnel: Methods and summary statistics. 2014 Dec 5.
 
  - Mortensen JD, Vasavada AN, Merryweather AS. The inclusion of hyoid muscles improve moment generating capacity and dynamic simulations in musculoskeletal models of the head and neck. PloS one. 2018 Jun 28;13(6):e0199912.
 
